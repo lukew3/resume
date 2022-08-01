@@ -37,10 +37,11 @@
     {
       "website": "",
       "highlights": [
-        "Created a new express.js and mongodb backend for monkeytype.com, an open-source typing website that handles 100k daily uniue visitors.",
+        "Created a new express.js and mongodb backend for monkeytype.com, an open-source typing website with 4k stars on Github and 100k daily unique site visitors.",
+        "Rewrote front-end javascript to enable usage of the new api",
+        "Reduced website's costs from about $500 per month to about $150 per month",
         "Communicated extensively with lead developer and another teammate",
-        "Used javascript, mongodb, express.js, linux and git",
-        null
+        "Used javascript, mongodb, node.js, express.js, linux and git"
       ],
       "company": "Monkeytype",
       "position": "Project Contributor",
@@ -115,6 +116,36 @@
     {
       "keywords": [
         "Python",
+        "Click"
+      ],
+      "name": "Ghlog",
+      "description": "Created a command line application to upload journal entries to a github repository.",
+      "url": "https://github.com/lukew3/ghlog"
+    },
+    {
+      "keywords": [
+        "Three.js",
+        "Webpack",
+        "Javascript",
+        "Python"
+      ],
+      "name": "BeautifulVHS",
+      "description": "Created a website that displays a moving, 3d rendering of old vhs covers. Wrote a python script to automatically crop panels from pictures.",
+      "url": "https://github.com/lukew3/beautifulvhs"
+    },
+    {
+      "keywords": [
+        "React Native",
+        "Python",
+        "Flask"
+      ],
+      "name": "Londree",
+      "url": "https://github.com/HrushikC/londree",
+      "description": "Currently creating a mobile/web app to keep track of the availability of laundry machines inside college dorms using React Native."
+    },
+    {
+      "keywords": [
+        "Python",
         "Flask",
         "PostgreSQL",
         null
@@ -135,26 +166,6 @@
     },
     {
       "keywords": [
-        "Three.js",
-        "Webpack",
-        "Javascript",
-        "Python"
-      ],
-      "name": "BeautifulVHS",
-      "description": "Created a website that displays a moving, 3d rendering of old vhs covers. Wrote a python script to automatically crop panels from pictures.",
-      "url": "https://github.com/lukew3/beautifulvhs"
-    },
-    {
-      "keywords": [
-        "Python",
-        "Click"
-      ],
-      "name": "Ghlog",
-      "description": "Created a command line application to upload journal entries to a github repository.",
-      "url": "https://github.com/lukew3/ghlog"
-    },
-    {
-      "keywords": [
         "Python"
       ],
       "name": "Worksheetgen",
@@ -171,16 +182,6 @@
       "description": "Created a python program that takes in a video of a slideshow presentation and uses opencv to detect differences in slides. Creates a pdf containing each slide shown in the video. Also created a website that allows users to have a minimal web interface to the tool.",
       "name": "Vid2slides",
       "url": "https://github.com/lukew3/vid2slides"
-    },
-    {
-      "keywords": [
-        "React Native",
-        "Python",
-        "Flask"
-      ],
-      "name": "Londree",
-      "url": "https://github.com/HrushikC/londree",
-      "description": "Currently creating an app to keep track of laundry machines inside college dorms using React Native."
     }
   ],
   "awards": [
