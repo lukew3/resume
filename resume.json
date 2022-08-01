@@ -37,17 +37,30 @@
     {
       "website": "",
       "highlights": [
-        "Created a new express.js and mongodb backend for monkeytype.com, an open-source typing website with 4.8k stars on Github and 100k daily unique site visitors.",
+        "Created a new Express.js and Mongodb backend for Monkeytype.com, an open-source typing website with 5k stars on Github and over 100k daily unique site visitors.",
         "Rewrote front-end javascript to enable usage of the new api.",
         "Reduced website's costs from about $500 per month to about $150 per month.",
         "Communicated extensively with lead developer and another teammate.",
-        "Used javascript, mongodb, node.js, express.js, linux and git."
+        "Used Javascript, Mongodb, Node.js, Express.js, Linux and Git."
       ],
       "company": "Monkeytype",
       "position": "Project Contributor",
       "location": "Remote",
       "startDate": "April 2021",
       "endDate": "August 2021"
+    },
+    {
+      "highlights": [
+        "Work part-time during the school-year with a team of 4 other developers to develop OpenOndeamand, open-source software used by dozens of supercomputer centers around the world to make supercomputing more accessible",
+        "Develop Ruby on Rails and Nodejs web apps for interacting with supercomputers",
+        "Work on Ruby library for fetching and formatting information about linux server processes and resources",
+        "Use Github, Asana, Microsoft Teams, Ruby & Ruby on Rails, Nodejs "
+      ],
+      "company": "Ohio Supercomputer Center",
+      "position": "Student Software Developer",
+      "location": "Columbus, OH",
+      "startDate": "February 2022",
+      "endDate": "Present"
     }
   ],
   "skills": [
@@ -55,8 +68,9 @@
       "level": "",
       "keywords": [
         "Python",
-        "Javascript",
+        "Javascript / Node.js",
         "C++",
+        "Ruby",
         "HTML",
         "CSS",
         "Java",
@@ -68,7 +82,8 @@
       "keywords": [
         "Flask",
         "React",
-        "Express.js"
+        "Express.js",
+        "Ruby On Rails"
       ],
       "name": "Frameworks"
     },
@@ -115,7 +130,7 @@
       ],
       "name": "mathgenerator",
       "url": "https://github.com/lukew3/mathgenerator",
-      "description": "Created and maintain an open-source python package that generates a wide variety of math problems. Package has 64 stars on Github and had 1000 downloads last month."
+      "description": "Created and maintain an open-source python package that generates a wide variety of math problems. Package has 70 stars on Github and had 1000 downloads last month."
     },
     {
       "description": "A website where users can store, share, search, discuss, vote on, and manage their ideas. Deployed the site to a live linux server.",
