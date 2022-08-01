@@ -93,7 +93,7 @@
   ],
   "projects": [
     {
-      "description": "Created a website where users can post their ideas and share them with others or simply manage for their own personal use. Deployed the site to a linux server using nginx.",
+      "description": "Created a website where users can store, share, search, discuss, vote on, and manage their ideas. Deployed the site to a live linux server.",
       "url": "https://ideaspot.org",
       "keywords": [
         "Python",
@@ -111,7 +111,7 @@
       ],
       "name": "mathgenerator",
       "url": "https://github.com/lukew3/mathgenerator",
-      "description": "Created and maintain a python package that generates math problems. Use Github Actions to test, format, and deploy to pypi. Have merged 217 pull requests from 71 unique contributors."
+      "description": "Created and maintain an open-source python package that generates a wide variety of math problems. Package has 64 stars on Github and had 1000 downloads last month."
     },
     {
       "keywords": [
@@ -119,18 +119,17 @@
         "Click"
       ],
       "name": "Ghlog",
-      "description": "Created a command line application to upload journal entries to a github repository.",
+      "description": "Created a command line application to upload journal entries to a Github repository.",
       "url": "https://github.com/lukew3/ghlog"
     },
     {
       "keywords": [
         "Three.js",
         "Webpack",
-        "Javascript",
-        "Python"
+        "Javascript"
       ],
       "name": "BeautifulVHS",
-      "description": "Created a website that displays a moving, 3d rendering of old vhs covers. Wrote a python script to automatically crop panels from pictures.",
+      "description": "Created a website that displays a moving, 3d rendering of old vhs covers",
       "url": "https://github.com/lukew3/beautifulvhs"
     },
     {
@@ -169,7 +168,7 @@
         "Python"
       ],
       "name": "Worksheetgen",
-      "description": "Created a python package that creates a printable math worksheet. Designed to be generated automatically with mathgenerator.",
+      "description": "Created a python package that creates a printable pdf of a math worksheet. Created with the intention of being used with mathgenerator to create random math worksheets.",
       "url": "https://github.com/lukew3/worksheetgen"
     },
     {
