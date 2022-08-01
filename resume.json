@@ -28,7 +28,7 @@
       "location": "Columbus, OH",
       "area": "Computer Science and Engineering",
       "studyType": "BS",
-      "endDate": "May 2024",
+      "endDate": "December 2024",
       "institution": "The Ohio State University",
       "startDate": "August 2021"
     }
@@ -37,16 +37,16 @@
     {
       "website": "",
       "highlights": [
-        "Created a new express.js and mongodb backend for monkeytype.com, an open-source typing website with 4k stars on Github and 100k daily unique site visitors.",
-        "Rewrote front-end javascript to enable usage of the new api",
-        "Reduced website's costs from about $500 per month to about $150 per month",
-        "Communicated extensively with lead developer and another teammate",
-        "Used javascript, mongodb, node.js, express.js, linux and git"
+        "Created a new express.js and mongodb backend for monkeytype.com, an open-source typing website with 4.8k stars on Github and 100k daily unique site visitors.",
+        "Rewrote front-end javascript to enable usage of the new api.",
+        "Reduced website's costs from about $500 per month to about $150 per month.",
+        "Communicated extensively with lead developer and another teammate.",
+        "Used javascript, mongodb, node.js, express.js, linux and git."
       ],
       "company": "Monkeytype",
       "position": "Project Contributor",
       "location": "Remote",
-      "startDate": "May 2021",
+      "startDate": "April 2021",
       "endDate": "August 2021"
     }
   ],
@@ -59,7 +59,8 @@
         "C++",
         "HTML",
         "CSS",
-        "Java"
+        "Java",
+        "Pug"
       ],
       "name": "Programming Languages"
     },
@@ -93,7 +94,31 @@
   ],
   "projects": [
     {
-      "description": "Created a website where users can store, share, search, discuss, vote on, and manage their ideas. Deployed the site to a live linux server.",
+      "keywords": [
+        "Javascript",
+        "Express.js",
+        "Pug",
+        "MongoDB",
+        "Node.js",
+        "Browserify",
+        "Socket.io",
+        "CSS"
+      ],
+      "name": "Congol",
+      "description": "A website that allows users to play Conway's Game of Life with 2 competing players accross the internet.",
+      "url": "https://congol.net"
+    },
+    {
+      "keywords": [
+        "Python",
+        "Github"
+      ],
+      "name": "mathgenerator",
+      "url": "https://github.com/lukew3/mathgenerator",
+      "description": "Created and maintain an open-source python package that generates a wide variety of math problems. Package has 64 stars on Github and had 1000 downloads last month."
+    },
+    {
+      "description": "A website where users can store, share, search, discuss, vote on, and manage their ideas. Deployed the site to a live linux server.",
       "url": "https://ideaspot.org",
       "keywords": [
         "Python",
@@ -107,19 +132,10 @@
     {
       "keywords": [
         "Python",
-        "Github"
-      ],
-      "name": "mathgenerator",
-      "url": "https://github.com/lukew3/mathgenerator",
-      "description": "Created and maintain an open-source python package that generates a wide variety of math problems. Package has 64 stars on Github and had 1000 downloads last month."
-    },
-    {
-      "keywords": [
-        "Python",
         "Click"
       ],
       "name": "Ghlog",
-      "description": "Created a command line application to upload journal entries to a Github repository.",
+      "description": "A command line application to upload journal entries to a Github repository.",
       "url": "https://github.com/lukew3/ghlog"
     },
     {
@@ -129,7 +145,7 @@
         "Javascript"
       ],
       "name": "BeautifulVHS",
-      "description": "Created a website that displays a moving, 3d rendering of old vhs covers",
+      "description": "A website that displays a moving, 3d rendering of old vhs covers.",
       "url": "https://github.com/lukew3/beautifulvhs"
     },
     {
@@ -150,7 +166,7 @@
         null
       ],
       "name": "Todarith",
-      "description": "Created a website that hosted a database of user-submitted and machine-generated math problems. ",
+      "description": "Created a website that hosted a database of user-submitted and machine-generated math problems. Planned to be used for generating math problems and solutions using machine-learning.",
       "url": "https://github.com/lukew3/todarith"
     },
     {
@@ -160,7 +176,7 @@
         "REST API"
       ],
       "name": "Recolorbot",
-      "description": "Created a reddit bot that colors black and white images using an image coloring API. Host the converted images on a python web server.",
+      "description": "A reddit bot that colors black and white images using a deep learning image coloring API. Host the converted images on a python web server.",
       "url": "https://github.com/lukew3/recolorbot"
     },
     {
@@ -168,7 +184,7 @@
         "Python"
       ],
       "name": "Worksheetgen",
-      "description": "Created a python package that creates a printable pdf of a math worksheet. Created with the intention of being used with mathgenerator to create random math worksheets.",
+      "description": "A python package that creates a printable pdf of a math worksheet. Created with the intention of being used with mathgenerator to create random math worksheets.",
       "url": "https://github.com/lukew3/worksheetgen"
     },
     {
@@ -178,7 +194,7 @@
         "Pillow",
         "Computer Vision"
       ],
-      "description": "Created a python program that takes in a video of a slideshow presentation and uses opencv to detect differences in slides. Creates a pdf containing each slide shown in the video. Also created a website that allows users to have a minimal web interface to the tool.",
+      "description": "A python program that takes in a video of a slideshow presentation and uses opencv to detect differences in slides. Creates a pdf containing each slide shown in the video. Also created a website that allows users to have a minimal web interface to the tool.",
       "name": "Vid2slides",
       "url": "https://github.com/lukew3/vid2slides"
     }
