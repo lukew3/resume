@@ -38,10 +38,10 @@
     {
       "website": "",
       "highlights": [
-        "Worked with project leader and another team member to refactor website and server code to run an express.js/mongo server ",
+        "Refactored codebase to use express.js with a mongodb database in place of old firebase code, cutting costs from about $500 per month to about $150 per month",
         "Communicated extensively with lead developer and another teammate",
         "Used javascript, mongodb, express.js, linux and git",
-        "Refactored codebase to use express.js with a mongodb database in place of old firebase code, cutting costs from about $500 per month to about $150 per month"
+        null
       ],
       "company": "Monkeytype",
       "position": "Project Contributor",
@@ -67,8 +67,7 @@
       "keywords": [
         "Flask",
         "React",
-        "Express.js ",
-        "React Native"
+        "Express.js"
       ],
       "name": "Frameworks"
     },
@@ -153,6 +152,24 @@
       "name": "Ghlog",
       "description": "Created a command line application to upload journal entries to a github repository.",
       "url": "https://github.com/lukew3/ghlog"
+    },
+    {
+      "keywords": [
+        "Python"
+      ],
+      "name": "Worksheetgen",
+      "description": "Created a python package that creates a printable math worksheet. Designed to be generated automatically with mathgenerator.",
+      "url": "https://github.com/lukew3/worksheetgen"
+    },
+    {
+      "keywords": [
+        "Python",
+        "ffmpeg",
+        "OpenCV"
+      ],
+      "description": "Created a python program that takes in a video of a slideshow presentation and uses opencv to detect differences in slides. Creates a pdf containing each slide shown in the video. Also created a website that allows users to have a minimal web interface to the tool.",
+      "name": "Vid2slides",
+      "url": "https://github.com/lukew3/vid2slides"
     }
   ],
   "awards": [
