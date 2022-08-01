@@ -1,0 +1,119 @@
+{
+  "selectedTemplate": 4,
+  "headings": {
+    "skills": "Skills",
+    "awards": "",
+    "education": "Education",
+    "projects": "Projects",
+    "work": "Work Experience"
+  },
+  "basics": {
+    "name": "Luke Weiler",
+    "email": "lukew25073@gmail.com",
+    "website": "https://github.com/lukew3",
+    "phone": "(440) 532-0588",
+    "location": {
+      "address": "Columbus, OH"
+    }
+  },
+  "education": [
+    {
+      "location": "Columbus, OH",
+      "area": "Computer Science and Engineering",
+      "studyType": "BS",
+      "endDate": "May 2024",
+      "gpa": "4.0",
+      "institution": "The Ohio State University",
+      "startDate": "Aug 2021"
+    }
+  ],
+  "work": [
+    {
+      "website": "",
+      "highlights": [
+        "Created an express.js api to replace costly firebase integration. Cut costs from ~$500/month to ~$150/month. Added a feature to replay a user's last typing test using javascript. "
+      ],
+      "company": "Monkeytype",
+      "position": "Project Contributor",
+      "location": "Remote",
+      "startDate": "May 2021",
+      "endDate": "August 2021"
+    }
+  ],
+  "skills": [
+    {
+      "level": "",
+      "keywords": [
+        "Python",
+        "Javascript",
+        "C++",
+        "HTML",
+        "CSS"
+      ],
+      "name": "Programming Languages"
+    },
+    {
+      "keywords": [
+        "Flask",
+        "React"
+      ],
+      "name": "Frameworks"
+    },
+    {
+      "keywords": [
+        "PostgreSQL",
+        "MongoDB",
+        "Firebase"
+      ],
+      "name": "Databases"
+    }
+  ],
+  "projects": [
+    {
+      "description": "Created a website where users can post their ideas and share them with others or simply manage for their own personal use.",
+      "url": "https://ideaspot.org",
+      "keywords": [
+        "Python",
+        "React",
+        "Flask"
+      ],
+      "name": "Ideaspot"
+    },
+    {
+      "keywords": [
+        "Python",
+        "Github"
+      ],
+      "name": "mathgenerator",
+      "url": "https://github.com/lukew3/mathgenerator",
+      "description": "Created and maintain a python package that generates math problems. Have merged 217 pull requests from 71 unique contributors."
+    },
+    {
+      "keywords": [
+        "Python",
+        "Github",
+        "API"
+      ],
+      "name": "ghlog",
+      "description": "Created a command line application that uses the github api to create an organized journal inside a Github repository",
+      "url": "https://github.com/lukew3/ghlog"
+    }
+  ],
+  "awards": [
+    {
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}
