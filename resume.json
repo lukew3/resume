@@ -1,5 +1,5 @@
 {
-  "selectedTemplate": 4,
+  "selectedTemplate": 1,
   "headings": {
     "skills": "Skills",
     "awards": "",
@@ -18,20 +18,30 @@
   },
   "education": [
     {
+      "institution": "Avon High School",
+      "endDate": "May 2021",
+      "location": "Avon, OH",
+      "studyType": "High School Diploma",
+      "startDate": "August 2017",
+      "gpa": " 4.3W/3.9UW"
+    },
+    {
       "location": "Columbus, OH",
       "area": "Computer Science and Engineering",
       "studyType": "BS",
       "endDate": "May 2024",
-      "gpa": "4.0",
       "institution": "The Ohio State University",
-      "startDate": "Aug 2021"
+      "startDate": "August 2021"
     }
   ],
   "work": [
     {
       "website": "",
       "highlights": [
-        "Created an express.js api to replace costly firebase integration. Cut costs from ~$500/month to ~$150/month. Added a feature to replay a user's last typing test using javascript. "
+        "Worked with project leader and another team member to refactor website and server code to run an express.js/mongo server ",
+        "Communicated extensively with lead developer and another teammate",
+        "Used javascript, mongodb, express.js, linux and git",
+        "Refactored codebase to use express.js with a mongodb database in place of old firebase code, cutting costs from about $500 per month to about $150 per month"
       ],
       "company": "Monkeytype",
       "position": "Project Contributor",
@@ -48,14 +58,17 @@
         "Javascript",
         "C++",
         "HTML",
-        "CSS"
+        "CSS",
+        "Java"
       ],
       "name": "Programming Languages"
     },
     {
       "keywords": [
         "Flask",
-        "React"
+        "React",
+        "Express.js ",
+        "React Native"
       ],
       "name": "Frameworks"
     },
@@ -66,16 +79,29 @@
         "Firebase"
       ],
       "name": "Databases"
+    },
+    {
+      "keywords": [
+        "Linux",
+        "Nginx",
+        "Windows",
+        "Git",
+        "Figma",
+        "Microsoft Office"
+      ],
+      "name": "Tools/Platforms"
     }
   ],
   "projects": [
     {
-      "description": "Created a website where users can post their ideas and share them with others or simply manage for their own personal use.",
+      "description": "Created a website where users can post their ideas and share them with others or simply manage for their own personal use. Deployed the site to a linux server using nginx.",
       "url": "https://ideaspot.org",
       "keywords": [
         "Python",
         "React",
-        "Flask"
+        "Flask",
+        "Nginx",
+        "Mongodb"
       ],
       "name": "Ideaspot"
     },
@@ -86,16 +112,46 @@
       ],
       "name": "mathgenerator",
       "url": "https://github.com/lukew3/mathgenerator",
-      "description": "Created and maintain a python package that generates math problems. Have merged 217 pull requests from 71 unique contributors."
+      "description": "Created and maintain a python package that generates math problems. Use Github Actions to test, format, and deploy to pypi. Have merged 217 pull requests from 71 unique contributors."
     },
     {
       "keywords": [
         "Python",
-        "Github",
-        "API"
+        "Flask",
+        "PostgreSQL",
+        null
       ],
-      "name": "ghlog",
-      "description": "Created a command line application that uses the github api to create an organized journal inside a Github repository",
+      "name": "Todarith",
+      "description": "Created a website that hosted a database of user-submitted and machine-generated math problems. ",
+      "url": "https://github.com/lukew3/todarith"
+    },
+    {
+      "keywords": [
+        "Python",
+        "PRAW",
+        "REST API"
+      ],
+      "name": "Recolorbot",
+      "description": "Created a reddit bot that colors black and white images using an image coloring API.",
+      "url": "https://github.com/lukew3/recolorbot"
+    },
+    {
+      "keywords": [
+        "Three.js",
+        "Webpack",
+        "Javascript"
+      ],
+      "name": "BeautifulVHS",
+      "description": "Created a website that displays a moving, 3d rendering of old vhs covers",
+      "url": "https://github.com/lukew3/beautifulvhs"
+    },
+    {
+      "keywords": [
+        "Python",
+        "Click"
+      ],
+      "name": "Ghlog",
+      "description": "Created a command line application to upload journal entries to a github repository.",
       "url": "https://github.com/lukew3/ghlog"
     }
   ],
