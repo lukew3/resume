@@ -28,7 +28,7 @@
       "location": "Columbus, OH",
       "area": "Computer Science and Engineering",
       "studyType": "BS",
-      "endDate": "December 2024",
+      "endDate": "May 2024",
       "institution": "The Ohio State University",
       "startDate": "August 2021"
     }
@@ -37,11 +37,9 @@
     {
       "website": "",
       "highlights": [
-        "Created a new Express.js and Mongodb backend for Monkeytype.com, an open-source typing website with 5k stars on Github and over 100k daily unique site visitors.",
-        "Rewrote front-end javascript to enable usage of the new api.",
-        "Reduced website's costs from about $500 per month to about $150 per month.",
-        "Communicated extensively with lead developer and another teammate.",
-        "Used Javascript, Mongodb, Node.js, Express.js, Linux and Git."
+        "Reduced cloud costs by 70% by migrating code from Firebase to MongoDB with a custom express.js api server which is now being used by over 100k unique site visitors each day.",
+        "Worked with Monkeytype's owner/lead developer as well as another interested developer.",
+        "Used Javascript, Mongodb, Node.js, Express.js, Linux, Git, Discord.js."
       ],
       "company": "Monkeytype",
       "position": "Project Contributor",
@@ -51,14 +49,13 @@
     },
     {
       "highlights": [
-        "Work part-time during the school-year with a team of 4 other developers to develop OpenOndeamand, open-source software used by dozens of supercomputer centers around the world to make supercomputing more accessible",
-        "Develop Ruby on Rails and Nodejs web apps for interacting with supercomputers",
-        "Work on Ruby library for fetching and formatting information about linux server processes and resources",
-        "Use Github, Asana, Microsoft Teams, Ruby & Ruby on Rails, Nodejs "
+        "Work part-time with a team of 4 other developers to develop OpenOndeamand, open-source software used by dozens of supercomputer centers around the world to make high-performance computing more accessible.",
+        "Develop Ruby on Rails and Nodejs web apps for interacting with Linux machines",
+        "Use Ruby & Ruby on Rails, Linux, Github, Asana, MS Teams, Nodejs, Nginx, Slurm "
       ],
       "company": "Ohio Supercomputer Center",
       "position": "Student Software Developer",
-      "location": "Columbus, OH",
+      "location": "Columbus, OH / Remote",
       "startDate": "February 2022",
       "endDate": "Present"
     }
@@ -69,7 +66,7 @@
       "keywords": [
         "Python",
         "Javascript / Node.js",
-        "C++",
+        "C/C++",
         "Ruby",
         "HTML",
         "CSS",
@@ -130,7 +127,7 @@
       ],
       "name": "mathgenerator",
       "url": "https://github.com/lukew3/mathgenerator",
-      "description": "Created and maintain an open-source python package that generates a wide variety of math problems. Package has 70 stars on Github and had 1000 downloads last month."
+      "description": "Created and maintain an open-source python package that generates a wide variety of math problems. Package has 85 stars on Github and has around 1000 downloads per month."
     },
     {
       "description": "A website where users can store, share, search, discuss, vote on, and manage their ideas. Deployed the site to a live linux server.",
