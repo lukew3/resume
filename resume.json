@@ -17,23 +17,35 @@
   },
   "education": [
     {
-      "institution": "Avon High School",
-      "endDate": "May 2021",
-      "location": "Avon, OH",
-      "studyType": "High School Diploma",
-      "startDate": "August 2017",
-      "gpa": " 4.3W/3.9UW"
-    },
-    {
       "location": "Columbus, OH",
       "area": "Computer Science and Engineering",
       "studyType": "BS",
       "endDate": "May 2024",
       "institution": "The Ohio State University",
       "startDate": "August 2021"
+    },
+    {
+      "institution": "Avon High School",
+      "endDate": "May 2021",
+      "location": "Avon, OH",
+      "studyType": "High School Diploma",
+      "startDate": "August 2017",
+      "gpa": " 4.3W/3.9UW"
     }
   ],
   "work": [
+    {
+      "highlights": [
+        "Work part-time with a team of 4 other developers to develop OpenOndeamand, open-source software used by dozens of supercomputer centers around the world to make high-performance computing more accessible.",
+        "Develop Ruby on Rails and Nodejs web apps for interacting with Linux machines",
+        "Use Ruby & Ruby on Rails, Linux, Github, Asana, MS Teams, Nodejs, Nginx, Slurm "
+      ],
+      "company": "Ohio Supercomputer Center",
+      "position": "Student Software Developer",
+      "location": "Columbus, OH / Remote",
+      "startDate": "February 2022",
+      "endDate": "Present"
+    },
     {
       "website": "",
       "highlights": [
@@ -46,18 +58,6 @@
       "location": "Remote",
       "startDate": "April 2021",
       "endDate": "August 2021"
-    },
-    {
-      "highlights": [
-        "Work part-time with a team of 4 other developers to develop OpenOndeamand, open-source software used by dozens of supercomputer centers around the world to make high-performance computing more accessible.",
-        "Develop Ruby on Rails and Nodejs web apps for interacting with Linux machines",
-        "Use Ruby & Ruby on Rails, Linux, Github, Asana, MS Teams, Nodejs, Nginx, Slurm "
-      ],
-      "company": "Ohio Supercomputer Center",
-      "position": "Student Software Developer",
-      "location": "Columbus, OH / Remote",
-      "startDate": "February 2022",
-      "endDate": "Present"
     }
   ],
   "skills": [
