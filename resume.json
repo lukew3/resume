@@ -116,6 +116,14 @@
   ],
   "projects": [
     {
+      "name": "3cards",
+      "url": "lukew3-3carsds.netlify.app",
+      "description": "A web3 application that allows users to create and share flashcard sets stored on the Arweave, a decentralized storage system.",
+      "technologies": [
+        "Next.js"
+      ]
+    },
+    {
       "keywords": [
         "Javascript",
         "Express.js",
@@ -131,13 +139,13 @@
       "url": "https://congol.net"
     },
     {
+      "name": "Stem Player Online",
+      "description": "A web application that enables users to control their music in a way similar to the popular Stem Player created by Kanye West.",
+      "url": "https://stemplayeronline.com",
       "keywords": [
-        "Python",
-        "Github"
-      ],
-      "name": "mathgenerator",
-      "url": "https://github.com/lukew3/mathgenerator",
-      "description": "Created and maintain an open-source python package that generates a wide variety of math problems. Package has 85 stars on Github and has around 1000 downloads per month."
+        "Javascript",
+        "Audio"
+      ]
     },
     {
       "description": "A website where users can store, share, search, discuss, vote on, and manage their ideas. Deployed the site to a live linux server.",
@@ -150,6 +158,25 @@
         "Mongodb"
       ],
       "name": "Ideaspot"
+    },
+    {
+      "keywords": [
+        "Python",
+        "Github"
+      ],
+      "name": "mathgenerator",
+      "url": "https://github.com/lukew3/mathgenerator",
+      "description": "Created and maintain an open-source python package that generates a wide variety of math problems. Package has 85 stars on Github and has around 1000 downloads per month."
+    },
+    {
+      "keywords": [
+        "Python",
+        "PRAW",
+        "REST API"
+      ],
+      "name": "Recolorbot",
+      "description": "A reddit bot that colors black and white images using a deep learning image coloring API. Host the converted images on a python web server.",
+      "url": "https://github.com/lukew3/recolorbot"
     },
     {
       "keywords": [
@@ -190,16 +217,6 @@
       "name": "Todarith",
       "description": "Created a website that hosted a database of user-submitted and machine-generated math problems. Planned to be used for generating math problems and solutions using machine-learning.",
       "url": "https://github.com/lukew3/todarith"
-    },
-    {
-      "keywords": [
-        "Python",
-        "PRAW",
-        "REST API"
-      ],
-      "name": "Recolorbot",
-      "description": "A reddit bot that colors black and white images using a deep learning image coloring API. Host the converted images on a python web server.",
-      "url": "https://github.com/lukew3/recolorbot"
     },
     {
       "keywords": [
