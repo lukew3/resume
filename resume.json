@@ -119,7 +119,7 @@
       "name": "3cards",
       "url": "lukew3-3carsds.netlify.app",
       "description": "A web3 application that allows users to create and share flashcard sets stored on the Arweave, a decentralized storage system.",
-      "technologies": [
+      "keywords": [
         "Next.js"
       ]
     },
