@@ -135,12 +135,12 @@
         "CSS"
       ],
       "name": "Congol",
-      "description": "A website that allows users to play Conway's Game of Life with 2 competing players accross the internet.",
+      "description": "A website that allows users to play Conway's Game of Life with 2 players competing live over the internet.",
       "url": "https://congol.net"
     },
     {
       "name": "Stem Player Online",
-      "description": "A web application that enables users to control their music in a way similar to the popular Stem Player created by Kanye West.",
+      "description": "A web application that enables users to manipulate their music in a way similar to the popular Stem Player device created by Kanye West.",
       "url": "https://stemplayeronline.com",
       "keywords": [
         "Javascript",
@@ -162,11 +162,12 @@
     {
       "keywords": [
         "Python",
+        "Object Oriented Programming",
         "Github"
       ],
       "name": "mathgenerator",
       "url": "https://github.com/lukew3/mathgenerator",
-      "description": "Created and maintain an open-source python package that generates a wide variety of math problems. Package has 85 stars on Github and has around 1000 downloads per month."
+      "description": "Created and maintain an open-source python package that generates a wide variety of math problems. Package has 90 stars on Github and has around 1000 downloads per month."
     },
     {
       "keywords": [
@@ -175,7 +176,7 @@
         "REST API"
       ],
       "name": "Recolorbot",
-      "description": "A reddit bot that colors black and white images using a deep learning image coloring API. Host the converted images on a python web server.",
+      "description": "A Reddit bot that colors black and white images using a deep learning image coloring API when a user mentions u/recolorbot on a Reddit image post.",
       "url": "https://github.com/lukew3/recolorbot"
     },
     {
