@@ -199,35 +199,6 @@
     },
     {
       "keywords": [
-        "React Native",
-        "Python",
-        "Flask"
-      ],
-      "name": "Londree",
-      "url": "https://github.com/HrushikC/londree",
-      "description": "Currently creating a mobile/web app to keep track of the availability of laundry machines inside college dorms using React Native."
-    },
-    {
-      "keywords": [
-        "Python",
-        "Flask",
-        "PostgreSQL",
-        null
-      ],
-      "name": "Todarith",
-      "description": "Created a website that hosted a database of user-submitted and machine-generated math problems. Planned to be used for generating math problems and solutions using machine-learning.",
-      "url": "https://github.com/lukew3/todarith"
-    },
-    {
-      "keywords": [
-        "Python"
-      ],
-      "name": "Worksheetgen",
-      "description": "A python package that creates a printable pdf of a math worksheet. Created with the intention of being used with mathgenerator to create random math worksheets.",
-      "url": "https://github.com/lukew3/worksheetgen"
-    },
-    {
-      "keywords": [
         "Python",
         "ffmpeg",
         "Pillow",
