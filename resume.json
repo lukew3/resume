@@ -18,7 +18,7 @@
   "education": [
     {
       "location": "Columbus, OH",
-      "area": "Computer Science and Engineering",
+      "area": "Computer Science & Engineering | Officer at Competitive Programming Club",
       "studyType": "BS",
       "endDate": "May 2024",
       "institution": "The Ohio State University",
@@ -36,9 +36,9 @@
   "work": [
     {
       "highlights": [
-        "Work part-time with a team of 4 other developers to develop OpenOndeamand, open-source software used by dozens of supercomputer centers around the world to make high-performance computing more accessible.",
-        "Develop Ruby on Rails and Nodejs web apps for interacting with Linux machines",
-        "Use Ruby & Ruby on Rails, Linux, Github, Asana, MS Teams, Nodejs, Nginx, Slurm "
+        "Contributed code that improved OpenOndemand, a web application that serves as the connection between many of the world's top supercomputers and researchers.",
+        "Took part in the team processes of planning releases, reviewing PRs, and refactoring legacy code.",
+        "Utilized Ruby & Ruby on Rails, Linux, Github, Nodejs, Slurm "
       ],
       "company": "Ohio Supercomputer Center",
       "position": "Student Software Developer",
@@ -49,9 +49,9 @@
     {
       "website": "",
       "highlights": [
-        "Reduced cloud costs by 70% by migrating code from Firebase to MongoDB with a custom express.js api server which is now being used by over 100k unique site visitors each day.",
-        "Worked with Monkeytype's owner/lead developer as well as another interested developer.",
-        "Used Javascript, Mongodb, Node.js, Express.js, Linux, Git, Discord.js."
+        "Created the MongoDB and Express.js API as well as the connecting client code for Monkeytype.com, a site that is used by over 100k unique site visitors each day.",
+        "Worked with the owner/lead developer as well as a more experienced professional to ensure a smooth deployment.",
+        "Used Javascript, MongoDB, Node.js, Express.js, Linux, Git"
       ],
       "company": "Monkeytype",
       "position": "Project Contributor",
@@ -65,48 +65,51 @@
       "level": "",
       "keywords": [
         "Python",
-        "Javascript / Node.js",
-        "C/C++",
+        "Javascript/Node.js",
         "Ruby",
+        "C/C++",
         "HTML",
         "CSS",
         "Java",
+        "SQL",
         "Pug"
       ],
       "name": "Programming Languages"
     },
     {
       "keywords": [
-        "Flask",
         "React",
         "Express.js",
-        "Ruby On Rails"
+        "Ruby On Rails",
+        "Flask",
+        "Next.js"
       ],
       "name": "Frameworks"
     },
     {
       "keywords": [
-        "PostgreSQL",
-        "MongoDB",
-        "Firebase"
-      ],
-      "name": "Databases"
+        null
+      ]
     },
     {
       "keywords": [
-        "Nginx",
-        "Git & GitHub",
-        "Figma",
-        "Microsoft Office",
-        "Web Developer Tools",
-        "VSCode"
+        "Linux",
+        "Git",
+        "GitHub",
+        "Relational Databases",
+        "MongoDB",
+        "Web Developer Tools"
       ],
       "name": "Tools/Platforms"
     },
     {
       "keywords": [
-        "Linux",
-        "Windows"
+        "VS Code",
+        "Windows",
+        "Microsoft Office",
+        "Nginx",
+        "Firebase",
+        "Figma"
       ],
       "name": "."
     }
