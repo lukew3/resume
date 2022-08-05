@@ -198,17 +198,6 @@
       "name": "BeautifulVHS",
       "description": "A website that displays a moving, 3d rendering of old vhs covers.",
       "url": "https://github.com/lukew3/beautifulvhs"
-    },
-    {
-      "keywords": [
-        "Python",
-        "ffmpeg",
-        "Pillow",
-        "Computer Vision"
-      ],
-      "description": "A python program that takes in a video of a slideshow presentation and uses opencv to detect differences in slides. Creates a pdf containing each slide shown in the video. Also created a website that allows users to have a minimal web interface to the tool.",
-      "name": "Vid2slides",
-      "url": "https://github.com/lukew3/vid2slides"
     }
   ],
   "awards": [
