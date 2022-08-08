@@ -36,7 +36,9 @@
   "work": [
     {
       "highlights": [
-        "Contributed code that improved OpenOndemand, a web application that serves as the connection between many of the world's top supercomputers and researchers.",
+        "Created a dashboard that displays information about the status of various supercomputer resources",
+        "Worked on a library that makes reading information about supercomputer resources easier for Ruby devleopers.",
+        "Wrote and published minor features and bug fixes for the OpenOndemand files app, which consisted of writing ruby and bash code that interacts with the linux servers.",
         "Took part in the team processes of planning releases, reviewing PRs, and refactoring legacy code.",
         "Utilized Ruby & Ruby on Rails, Linux, Github, Nodejs, Slurm "
       ],
