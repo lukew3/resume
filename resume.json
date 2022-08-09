@@ -37,10 +37,8 @@
     {
       "highlights": [
         "Created a dashboard that displays information about the status of various supercomputer resources",
-        "Worked on a library that makes reading information about supercomputer resources easier for Ruby devleopers.",
         "Wrote and published minor features and bug fixes for the OpenOndemand files app, which consisted of writing ruby and bash code that interacts with the linux servers.",
-        "Took part in the team processes of planning releases, reviewing PRs, and refactoring legacy code.",
-        "Utilized Ruby & Ruby on Rails, Linux, Github, Nodejs, Slurm "
+        "Utilized Ruby & Ruby on Rails, Linux, Github, Nodejs, Slurm"
       ],
       "company": "Ohio Supercomputer Center",
       "position": "Student Software Developer",
@@ -68,13 +66,14 @@
       "level": "",
       "keywords": [
         "Python",
-        "Javascript/Node.js",
+        "Javascript",
         "Ruby",
         "C/C++",
         "HTML",
         "CSS",
         "Java",
         "SQL",
+        "Dart",
         "Pug"
       ],
       "name": "Programming Languages"
@@ -85,7 +84,8 @@
         "Express.js",
         "Ruby On Rails",
         "Flask",
-        "Next.js"
+        "Next.js",
+        "Flutter"
       ],
       "name": "Frameworks"
     },
@@ -120,7 +120,7 @@
   "projects": [
     {
       "name": "3cards",
-      "url": "lukew3-3cards.netlify.app",
+      "url": "https://lukew3-3cards.netlify.app",
       "description": "A web3 application that allows users to create and share flashcard sets stored on the Arweave, a decentralized blockchain-like storage network.",
       "keywords": [
         "Next.js"
@@ -174,6 +174,25 @@
     },
     {
       "keywords": [
+        "Flutter",
+        "Dart"
+      ],
+      "name": "Flag Quiz",
+      "description": "A flutter app where users can test their knowledge of national flags.",
+      "url": "https://github.com/lukew3/flag-quiz"
+    },
+    {
+      "keywords": [
+        "Three.js",
+        "Webpack",
+        "Javascript"
+      ],
+      "name": "BeautifulVHS",
+      "description": "A website that displays a moving, 3d rendering of old vhs covers.",
+      "url": "https://github.com/lukew3/beautifulvhs"
+    },
+    {
+      "keywords": [
         "Python",
         "PRAW",
         "REST API"
@@ -190,16 +209,6 @@
       "name": "Ghlog",
       "description": "A command line application to upload journal entries to a Github repository.",
       "url": "https://github.com/lukew3/ghlog"
-    },
-    {
-      "keywords": [
-        "Three.js",
-        "Webpack",
-        "Javascript"
-      ],
-      "name": "BeautifulVHS",
-      "description": "A website that displays a moving, 3d rendering of old vhs covers.",
-      "url": "https://github.com/lukew3/beautifulvhs"
     }
   ],
   "awards": [
