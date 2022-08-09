@@ -36,9 +36,9 @@
   "work": [
     {
       "highlights": [
-        "Created a dashboard that displays information about the status of various supercomputer resources",
-        "Wrote and published minor features and bug fixes for the OpenOndemand files app, which consisted of writing ruby and bash code that interacts with the linux servers.",
-        "Utilized Ruby & Ruby on Rails, Linux, Github, Nodejs, Slurm"
+        "Created a dashboard that displays information about the status of various supercomputer resources.",
+        "Wrote and published many features and bug fixes for the OpenOndemand web app, a gateway enabling researchers to utilize the world's most powerful supercomputers.",
+        "Utilized Ruby & Ruby on Rails, Linux, Github, Node.js, Bash, Slurm."
       ],
       "company": "Ohio Supercomputer Center",
       "position": "Student Software Developer",
@@ -49,10 +49,10 @@
     {
       "website": "",
       "highlights": [
-        "Created the MongoDB and Express.js API as well as the connecting client code for Monkeytype.com, a site that serves over 100k unique visitors each day.",
+        "Created the MongoDB database, Express.js API and the connecting client code for Monkeytype.com, a site that serves over 100k unique visitors each day.",
         "Immediately reduced costs by 70% and slowed the rate of increasing cloud service costs.",
         "Worked with the owner/lead developer as well as a more experienced professional to ensure a smooth deployment.",
-        "Used Javascript, MongoDB, Node.js, Express.js, Linux, Git"
+        "Used Javascript, MongoDB, Node.js, Express.js, Linux, Git."
       ],
       "company": "Monkeytype",
       "position": "Project Contributor",
