@@ -81,7 +81,7 @@
 \header{Education}
 <% education.each do |school| %>
     \textbf{<%= school['institution'] %>}\hfill <%= school['location'] %>\\
-    <%= school['studyType'] %> <%= school['area'] %> \textit{GPA: <%= school['gpa'] %>} \hfill <%= school['startDate'] + ' - ' + school['endDate'] %>\\
+    <%= school['studyType'] %> <%= school['area'] %> <% if school['gpa'] %>\textit{GPA: <%= school['gpa'] %>}<% end %> \hfill <%= school['startDate'] + ' - ' + school['endDate'] %>\\
     \vspace{2mm}
 <% end %>
 
@@ -102,10 +102,9 @@
 
 \header{Skills}
 \begin{tabular}{ l l }
-	Programming Languages: & Python, Javascript, Ruby, C/C++, HTML, CSS, Java, SQL, Dart, Pug       \\
-	Frameworks:            & React, Express.js, Ruby On Rails, Flask, Next.js, Flutter              \\
-	Tools/Platforms:       & Linux, Git, GitHub, Relational Databases, MongoDB, Web Developer Tools \\
-	.:                     & VS Code, Windows, Microsoft Office, Nginx, Firebase, Figma             \\
+<% skills.each do |skill| %>
+    <%= skill['name'] %>:   & <%= skill['keywords'].map{ |e| "#{e}"}.join(', ') %>  \\
+<% end %>
 \end{tabular}
 \vspace{2mm}
 
