@@ -5,3 +5,6 @@ resume.tex
 resume.pdf
 resume.aux
 resume.log
+
+# ruby
+vendor/
