@@ -1,0 +1,10 @@
+# build.rb output
+resume.tex
+
+# pdflatex output
+resume.pdf
+resume.aux
+resume.log
+
+# ruby
+vendor/

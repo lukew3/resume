@@ -18,7 +18,7 @@
   "education": [
     {
       "location": "Columbus, OH",
-      "area": "Computer Science & Engineering | Officer at Competitive Programming Club",
+      "area": "Computer Science and Engineering | Officer at Competitive Programming Club",
       "studyType": "BS",
       "endDate": "May 2024",
       "institution": "The Ohio State University",
@@ -38,7 +38,7 @@
       "highlights": [
         "Created a dashboard that displays information about the status of various supercomputer resources.",
         "Wrote and published many features and bug fixes for the OpenOndemand web app, a gateway enabling researchers to utilize the world's most powerful supercomputers.",
-        "Utilized Ruby & Ruby on Rails, Linux, Github, Node.js, Bash, Slurm."
+        "Utilized Ruby and Ruby on Rails, Linux, Github, Node.js, Bash, Slurm."
       ],
       "company": "Ohio Supercomputer Center",
       "position": "Student Software Developer",
@@ -50,7 +50,7 @@
       "website": "",
       "highlights": [
         "Created the MongoDB database, Express.js API and the connecting client code for Monkeytype.com, a site that serves over 100k unique visitors each day.",
-        "Immediately reduced costs by 70% and slowed the rate of increasing cloud service costs.",
+        "Immediately reduced costs by 70 percent and slowed the rate of increasing cloud service costs.",
         "Worked with the owner/lead developer and a more experienced professional to ensure a smooth deployment.",
         "Used Javascript, MongoDB, Node.js, Express.js, Linux, Git."
       ],
@@ -88,11 +88,6 @@
         "Flutter"
       ],
       "name": "Frameworks"
-    },
-    {
-      "keywords": [
-        null
-      ]
     },
     {
       "keywords": [
