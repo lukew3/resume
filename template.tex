@@ -73,15 +73,15 @@
 %==== Profile ====%
 \vspace*{-10pt}
 \begin{center}
-	{\Huge \scshape {<%= basics['name'] %>}}\\
-	<%= basics['location']['address'] %> $\cdot$ <%= basics['email'] %> $\cdot$ <%= basics['phone'] %> $\cdot$ <%= basics['website'] %>\\
+	{\Huge \scshape {<% .Basics.Name %>}}\\
+	<% .Basics.Location.Address %> $\cdot$ <% .Basics.Email %> $\cdot$ <% .Basics.Phone %> $\cdot$ <% .Basics.Website %>\\
 \end{center}
 
 %==== Education ====%
 \header{Education}
-<% education.each do |school| %>
-    \textbf{<%= school['institution'] %>}\hfill <%= school['location'] %>\\
-    <%= school['studyType'] %> <%= school['area'] %> <%= school['gpa'] ? "\\textit{GPA: #{school['gpa']}}" : ''%>\hfill <%= school['startDate'] + ' - ' + school['endDate'] %>\\
+<% range .Education %>
+    \textbf{<% .Institution %>}\hfill <% .Location %>\\
+    <% .StudyType %> <% .Area %> <% .Score %>\hfill <% .StartDate %> - <% .EndDate %>\\
     \vspace{2mm}
 <% end %>
 
@@ -89,29 +89,29 @@
 \header{Work Experience}
 \vspace{1mm}
 
-<% work.each do |job| %>
-    \textbf{<%= job['company'] %>} \hfill <%= job['location'] %>\\
-    \textit{<%= job['position'] %>} \hfill <%= job['startDate'] + ' - ' + job['endDate'] %>\\
+<% range .Work %>
+    \textbf{<% .Company %>} \hfill <% .Location %>\\
+    \textit{<% .Position %>} \hfill <% .StartDate %> - .EndDate %>\\
     \vspace{-1mm}
     \begin{itemize} \itemsep 1pt
-        <% job['highlights'].each do |highlight| %>
-            \item <%= highlight %>
+        <% range .Highlights %>
+            \item <% . %>
         <% end %>
     \end{itemize}
 <% end %>
 
 \header{Skills}
 \begin{tabular}{ l l }
-<% skills.each do |skill| %>
-    <%= skill['name'] %>:   & <%= skill['keywords'].map{ |e| "#{e}"}.join(', ') %>  \\
+<% range .Skills %>
+    <% .Name %>:   & <% .Keywords %>  \\
 <% end %>
 \end{tabular}
 \vspace{2mm}
 
 \header{Projects}
-<% projects.each do |project| %>
-    {\textbf{<%= project['name'] %>}} {\sl <%= project['keywords'].map{ |e| "#{e}"}.join(', ') %>} \hfill <%= project['url'] %>\\
-    <%= project['description'] %>\\
+<% range .Projects %>
+    {\textbf{<% .Name %>}} {\sl <% .Keywords %>} \hfill <% .Url %>\\
+    <% .Description %>\\
     \vspace*{2mm}
 <% end %>
 

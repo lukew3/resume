@@ -1,18 +1,30 @@
 package main
 
 import (
-	//"html/template"
+	"text/template"
 	"log"
-	"reflect"
+	"os"
 
-	resumeValidator "github.com/cinarmert/json-resume-validator"
+	resumeValidator "github.com/lukew3/json-resume-validator"
 )
+
+func checkErr(err error) {
+	if err != nil {
+		panic(err)
+	}
+}
 
 func main() {
 	log.Println("Hello, World!")
 	rv := new(resumeValidator.ResumeValidator).WithFile("resume.json")
-	rv.IsValid()
-	r := reflect.ValueOf(rv)
-	f := reflect.Indirect(r).FieldByName("resume")
-	log.Println(f)
+	err := rv.Validate()
+	if err != nil {
+		log.Println(err)
+	}
+	// log.Println(rv.Resume)
+
+	t, err := template.New("").Delims("<%", "%>").ParseFiles("template.tex")
+	checkErr(err)
+	err = t.Execute(os.Stdout, rv.Resume)
+	checkErr(err)
 }
