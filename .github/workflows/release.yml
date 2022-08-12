@@ -23,16 +23,14 @@ jobs:
           ruby-version: "2.7.1"
           bundler: "2.1.4"
           bundler-cache: true
-      
-      # Unnecessary step?
-      - name: Install Gem Dependencies
-        run: bundler install
 
-      - name: Install pdflatex
-        run: sudo apt-get install texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra
-      
-      - name: Build resume
-        run: ruby build.rb; pdflatex resume.tex;
+      - name: json to tex
+        run: ruby build.rb
+
+      - name: tex to pdf
+        uses: xu-cheng/latex-action@v2
+        with:
+          root_file: resume.tex
 
       - name: Get release
         id: get_release
