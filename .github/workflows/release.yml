@@ -18,7 +18,7 @@ jobs:
           INPUT_JSONS: /resume.json
       
       - name: Json to tex
-        uses: lukew3/json-fill-erb-action
+        uses: lukew3/json-fill-erb-action@v0.1
         with:
           json_path: resume.json
           erb_path: template.tex.erb
