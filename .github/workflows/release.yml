@@ -17,15 +17,12 @@ jobs:
           INPUT_SCHEMA: /schema.json
           INPUT_JSONS: /resume.json
       
-      - name: Setup Ruby using Bundler
-        uses: ruby/setup-ruby@v1
+      - name: Json to tex
+        uses: lukew3/json-fill-erb-action
         with:
-          ruby-version: "2.7.1"
-          bundler: "2.1.4"
-          bundler-cache: true
-
-      - name: json to tex
-        run: ruby build.rb
+          json_path: resume.json
+          erb_path: template.tex.erb
+          out_path: resume.tex
 
       - name: tex to pdf
         uses: xu-cheng/latex-action@v2
