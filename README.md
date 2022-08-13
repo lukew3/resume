@@ -6,13 +6,4 @@ The latest pdf build can be downloaded [here](https://github.com/lukew3/resume/r
 Resume built using https://resumake.io ([resumake repo](https://github.com/saadq/resumake.io))
 
 ## Building
-First, install ruby and pdflatex. Then run `bundle install` to install the ruby dependencies.
-
-To build, run 
-```
-ruby build.rb
-```
-and then run
-```
-pdflatex resume.tex
-```
+The release workflow will automatically build a pdf on release. If you want to render locally, you can use the `build.rb` file [here](https://github.com/lukew3/resume/blob/local-build/build.rb) and then run `pdflatex resume.tex`.
