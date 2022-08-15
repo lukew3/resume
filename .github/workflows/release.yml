@@ -14,7 +14,7 @@ jobs:
       - name: Validate JSON Resume
         uses: lukew3/validate-json-resume-action@main
         with:
-          resume-path: resume.json
+          resume_path: resume.json
       
       - name: Json to tex
         uses: lukew3/json-fill-erb-action@main
