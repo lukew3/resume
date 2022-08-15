@@ -1,11 +1,4 @@
 {
-  "selectedTemplate": 1,
-  "headings": {
-    "skills": "Skills",
-    "education": "Education",
-    "projects": "Projects",
-    "work": "Work Experience"
-  },
   "basics": {
     "name": "Luke Weiler",
     "email": "lukew25073@gmail.com",
@@ -20,17 +13,17 @@
       "location": "Columbus, OH",
       "area": "Computer Science and Engineering | Officer at Competitive Programming Club",
       "studyType": "BS",
-      "endDate": "May 2024",
-      "institution": "The Ohio State University",
-      "startDate": "August 2021"
+      "startDate": "2021-08",
+      "endDate": "2024-05",
+      "institution": "The Ohio State University"
     },
     {
       "institution": "Avon High School",
-      "endDate": "May 2021",
+      "endDate": "2021-05",
       "location": "Avon, OH",
       "studyType": "High School Diploma",
-      "startDate": "August 2017",
-      "gpa": " 4.3W/3.9UW"
+      "startDate": "2017-08",
+      "score": "4.3W/3.9UW"
     }
   ],
   "work": [
@@ -43,8 +36,8 @@
       "company": "Ohio Supercomputer Center",
       "position": "Student Software Developer",
       "location": "Columbus, OH / Remote",
-      "startDate": "February 2022",
-      "endDate": "Present"
+      "startDate": "2022-02",
+      "endDate": "2022-02"
     },
     {
       "website": "",
@@ -57,8 +50,8 @@
       "company": "Monkeytype",
       "position": "Project Contributor",
       "location": "Remote",
-      "startDate": "April 2021",
-      "endDate": "August 2021"
+      "startDate": "2021-04",
+      "endDate": "2021-08"
     }
   ],
   "skills": [
@@ -208,14 +201,5 @@
   ],
   "awards": [
     {}
-  ],
-  "sections": [
-    "templates",
-    "profile",
-    "education",
-    "work",
-    "skills",
-    "projects",
-    "awards"
   ]
 }
