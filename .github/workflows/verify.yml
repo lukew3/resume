@@ -9,13 +9,13 @@ on:
   workflow_dispatch:
 
 jobs:
-  verify:
+  validate:
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v3
 
       - name: Validate JSON Resume
-        uses: lukew3/validate-json-resume-action@v1
+        uses: lukew3/validate-json-resume-action@main
         with:
           resume-path: resume.json
