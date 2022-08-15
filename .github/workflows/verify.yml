@@ -18,4 +18,4 @@ jobs:
       - name: Validate JSON Resume
         uses: lukew3/validate-json-resume-action@main
         with:
-          resume_path: resume.json
+          resume-path: resume.json
