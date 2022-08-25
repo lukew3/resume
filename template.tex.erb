@@ -1,3 +1,19 @@
+<% monthHash = { '01': 'January',
+		 '02': 'February',
+		 '03': 'March',
+		 '04': 'April',
+		 '05': 'May',
+		 '06': 'June',
+		 '07': 'July',
+		 '08': 'August',
+		 '09': 'September',
+		 '10': 'October',
+		 '11': 'November',
+		 '12': 'December' }
+def formatDate(dateString)
+  monthHash[dateString[5..6]] + ' ' + dateString[0..3]
+end
+%>
 \documentclass[a4paper]{article}
     \usepackage{fullpage}
     \usepackage{amsmath}
@@ -81,7 +97,7 @@
 \header{Education}
 <% education.each do |school| %>
     \textbf{<%= school['institution'] %>}\hfill <%= school['location'] %>\\
-    <%= school['studyType'] %> <%= school['area'] %> <%= school['gpa'] ? "\\textit{GPA: #{school['gpa']}}" : ''%>\hfill <%= school['startDate'] + ' - ' + school['endDate'] %>\\
+    <%= school['studyType'] %> <%= school['area'] %> <%= school['gpa'] ? "\\textit{GPA: #{school['gpa']}}" : ''%>\hfill <%= formatDate(school['startDate']) + ' - ' + formatDate(school['endDate']) %>\\
     \vspace{2mm}
 <% end %>
 
@@ -91,7 +107,7 @@
 
 <% work.each do |job| %>
     \textbf{<%= job['company'] %>} \hfill <%= job['location'] %>\\
-    \textit{<%= job['position'] %>} \hfill <%= job['startDate'] + ' - ' + job['endDate'] %>\\
+    \textit{<%= job['position'] %>} \hfill <%= formatDate(job['startDate']) + ' - ' + formatDate(job['endDate']) %>\\
     \vspace{-1mm}
     \begin{itemize} \itemsep 1pt
         <% job['highlights'].each do |highlight| %>
