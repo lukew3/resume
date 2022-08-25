@@ -1,17 +1,21 @@
-<% monthHash = { '01': 'January',
-		 '02': 'February',
-		 '03': 'March',
-		 '04': 'April',
-		 '05': 'May',
-		 '06': 'June',
-		 '07': 'July',
-		 '08': 'August',
-		 '09': 'September',
-		 '10': 'October',
-		 '11': 'November',
-		 '12': 'December' }
+<%
 def formatDate(dateString)
-  monthHash[dateString[5..6]] + ' ' + dateString[0..3]
+  if dateString == '0'
+    return 'Present'
+  end
+  monthHash = {  '01': 'January',
+                 '02': 'February',
+                 '03': 'March',
+                 '04': 'April',
+                 '05': 'May',
+                 '06': 'June',
+                 '07': 'July',
+                 '08': 'August',
+                 '09': 'September',
+                 '10': 'October',
+                 '11': 'November',
+                 '12': 'December' }
+  "#{monthHash[:"#{dateString[5..6]}"]} #{dateString[0..3]}"
 end
 %>
 \documentclass[a4paper]{article}

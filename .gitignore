@@ -1,3 +1,5 @@
+build.rb
+
 # build.rb output
 resume.tex
 
@@ -8,3 +10,4 @@ resume.log
 
 # ruby
 vendor/
+
