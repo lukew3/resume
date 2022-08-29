@@ -107,12 +107,16 @@
   ],
   "projects": [
     {
-      "name": "3cards",
-      "url": "https://lukew3-3cards.netlify.app",
-      "description": "A web3 application that allows users to create and share flashcard sets stored on the Arweave, a decentralized blockchain-like storage network.",
+      "description": "A website where users can store, share, search, discuss, vote on, and manage their ideas. Deployed the site to a live linux server.",
+      "url": "https://ideaspot.org",
       "keywords": [
-        "Next.js"
-      ]
+        "Python",
+        "React",
+        "Flask",
+        "Nginx",
+        "Mongodb"
+      ],
+      "name": "Ideaspot"
     },
     {
       "keywords": [
@@ -139,16 +143,12 @@
       ]
     },
     {
-      "description": "A website where users can store, share, search, discuss, vote on, and manage their ideas. Deployed the site to a live linux server.",
-      "url": "https://ideaspot.org",
+      "name": "3cards",
+      "url": "https://lukew3-3cards.netlify.app",
+      "description": "A web3 application that allows users to create and share flashcard sets stored on the Arweave, a decentralized blockchain-like storage network.",
       "keywords": [
-        "Python",
-        "React",
-        "Flask",
-        "Nginx",
-        "Mongodb"
-      ],
-      "name": "Ideaspot"
+        "Next.js"
+      ]
     },
     {
       "keywords": [
