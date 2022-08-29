@@ -107,14 +107,15 @@
   ],
   "projects": [
     {
-      "description": "A website where users can store, share, search, discuss, vote on, and manage their ideas. Deployed the site to a live linux server.",
+      "description": "A website where users can store, share, search, discuss, vote on, and manage their ideas.",
       "url": "https://ideaspot.org",
       "keywords": [
         "Python",
         "React",
         "Flask",
         "Nginx",
-        "Mongodb"
+        "Mongodb",
+	"Linux"
       ],
       "name": "Ideaspot"
     },
@@ -186,7 +187,7 @@
         "REST API"
       ],
       "name": "Recolorbot",
-      "description": "A Reddit bot that colors black and white images using a deep learning image coloring API when a user mentions u/recolorbot on a Reddit image post.",
+      "description": "A Reddit bot that colors black and white images using an AI image coloring API.",
       "url": "https://github.com/lukew3/recolorbot"
     },
     {

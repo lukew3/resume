@@ -128,6 +128,12 @@ end
 \end{tabular}
 \vspace{2mm}
 
+\header{Certificates}
+<% certificates.each do |cert| %>
+    {\textbf{<%= cert['name'] %>}} \hfill <%= formatDate(cert['date']) %>\\
+    \vspace*{2mm}
+<% end %>
+
 \header{Projects}
 <% projects.each do |project| %>
     {\textbf{<%= project['name'] %>}} {\sl <%= project['keywords'].map{ |e| "#{e}"}.join(', ') %>} \hfill <%= project['url'] %>\\
