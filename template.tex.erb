@@ -128,10 +128,12 @@ end
 \end{tabular}
 \vspace{2mm}
 
+<% if certificates %>
 \header{Certificates}
 <% certificates.each do |cert| %>
     {\textbf{<%= cert['name'] %>}} \hfill <%= formatDate(cert['date']) %>\\
     \vspace*{2mm}
+<% end %>
 <% end %>
 
 \header{Projects}
