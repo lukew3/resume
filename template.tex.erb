@@ -128,7 +128,7 @@ end
 \end{tabular}
 \vspace{2mm}
 
-<% if certificates %>
+<% if certificates.length() > 0 %>
 \header{Certificates}
 <% certificates.each do |cert| %>
     {\textbf{<%= cert['name'] %>}} \hfill <%= formatDate(cert['date']) %>\\
