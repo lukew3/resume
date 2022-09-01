@@ -86,9 +86,9 @@
       "keywords": [
         "Linux",
         "Git",
-        "GitHub",
         "Relational Databases",
         "MongoDB",
+	"Docker",
         "Web Developer Tools"
       ],
       "name": "Tools/Platforms"
@@ -96,7 +96,6 @@
     {
       "keywords": [
         "VS Code",
-        "Windows",
         "Microsoft Office",
         "Nginx",
         "Firebase",
