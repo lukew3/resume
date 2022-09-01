@@ -105,6 +105,15 @@ end
     \vspace{2mm}
 <% end %>
 
+%==== Skills ====%
+\header{Skills}
+\begin{tabular}{ l l }
+<% skills.each do |skill| %>
+    <%= skill['name'] %>:   & <%= skill['keywords'].map{ |e| "#{e}"}.join(', ') %>  \\
+<% end %>
+\end{tabular}
+\vspace{2mm}
+
 %==== Experience ====%
 \header{Work Experience}
 \vspace{1mm}
@@ -120,14 +129,7 @@ end
     \end{itemize}
 <% end %>
 
-\header{Skills}
-\begin{tabular}{ l l }
-<% skills.each do |skill| %>
-    <%= skill['name'] %>:   & <%= skill['keywords'].map{ |e| "#{e}"}.join(', ') %>  \\
-<% end %>
-\end{tabular}
-\vspace{2mm}
-
+%==== Certificates ====%
 <% if certificates.length() > 0 %>
 \header{Certificates}
 <% certificates.each do |cert| %>
@@ -136,6 +138,22 @@ end
 <% end %>
 <% end %>
 
+%==== Leadership ====%
+\header{Leadership}
+\vspace{1mm}
+
+<% volunteer.each do |job| %>
+    \textbf{<%= job['organization'] %>} \hfill <%= formatDate(job['startDate']) + ' - ' + formatDate(job['endDate']) %>\\
+    \textit{<%= job['position'] %>} %>\\
+    \vspace{-1mm}
+    \begin{itemize} \itemsep 1pt
+        <% job['highlights'].each do |highlight| %>
+            \item <%= highlight %>
+        <% end %>
+    \end{itemize}
+<% end %>
+
+%==== Projects ====%
 \header{Projects}
 <% projects.each do |project| %>
     {\textbf{<%= project['name'] %>}} {\sl <%= project['keywords'].map{ |e| "#{e}"}.join(', ') %>} \hfill <%= project['url'] %>\\

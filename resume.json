@@ -16,22 +16,13 @@
       "startDate": "2021-08",
       "endDate": "2024-05",
       "institution": "The Ohio State University"
-    },
-    {
-      "institution": "Avon High School",
-      "endDate": "2021-05",
-      "location": "Avon, OH",
-      "studyType": "High School Diploma",
-      "startDate": "2017-08",
-      "score": "4.3W/3.9UW"
     }
   ],
   "work": [
     {
       "highlights": [
-        "Created a dashboard that displays information about the status of various supercomputer resources.",
-        "Wrote and published many features and bug fixes for the OpenOndemand web app, a gateway enabling researchers to utilize the world's most powerful supercomputers.",
-        "Utilized Ruby and Ruby on Rails, Linux, Github, Node.js, Bash, Slurm."
+        "Used Ruby on Rails to create a dashboard that displays information about the status of various supercomputer resources.",
+        "Writing and publishing many features and bug fixes for the OpenOndemand web app, a gateway enabling researchers to utilize the world's most powerful supercomputers."
       ],
       "company": "Ohio Supercomputer Center",
       "position": "Student Software Developer",
@@ -44,11 +35,10 @@
       "highlights": [
         "Created the MongoDB database, Express.js API and the connecting client code for Monkeytype.com, a site that serves over 100k unique visitors each day.",
         "Immediately reduced costs by 70 percent and slowed the rate of increasing cloud service costs.",
-        "Worked with the owner/lead developer and a more experienced professional to ensure a smooth deployment.",
-        "Used Javascript, MongoDB, Node.js, Express.js, Linux, Git."
+        "Worked with the owner/lead developer and a more experienced professional to ensure a smooth deployment."
       ],
       "company": "Monkeytype",
-      "position": "Project Contributor",
+      "position": "Open Source Contributor",
       "location": "Remote",
       "startDate": "2021-04",
       "endDate": "2021-08"
@@ -199,6 +189,17 @@
       "url": "https://github.com/lukew3/ghlog"
     }
   ],
+  "volunteer": [{
+    "organization": "Competitive Programming Club",
+    "position": "Officer",
+    "startDate": "2022-04",
+    "endDate": "1111-11",
+    "summary": "",
+    "highlights": [
+      "Planning weekly meetings and events.",
+      "Acquiring club funding."
+    ]
+  }],
   "certificates": [],
   "awards": [
     {}
