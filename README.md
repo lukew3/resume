@@ -1,5 +1,5 @@
 # resume
-Tracking how my resume changes using JSONresume.
+Tracking how my resume changes using JSONresume. Feel free to fork and watch github actions automatically validate and build your resume on release.
 
 The latest pdf build can be downloaded [here](https://github.com/lukew3/resume/releases/latest/download/resume.pdf)
 
