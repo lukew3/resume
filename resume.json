@@ -96,7 +96,7 @@
   ],
   "projects": [
     {
-      "description": "A website where users can store, share, search, discuss, vote on, and manage their ideas.",
+      "description": "Created a website where users can store, share, search, discuss, vote on, and manage their ideas.",
       "url": "https://ideaspot.org",
       "keywords": [
         "Python",
@@ -120,12 +120,12 @@
         "CSS"
       ],
       "name": "Congol",
-      "description": "A website that allows users to play Conway's Game of Life with 2 players competing live over the internet.",
+      "description": "Created a website that allows users to play a version of Conway's Game of Life with 2 players competing live over the internet.",
       "url": "https://congol.net"
     },
     {
       "name": "Stem Player Online",
-      "description": "A web application that enables users to manipulate their music in a way similar to the popular Stem Player device created by Kanye West. Used by an average of 1000 people per week.",
+      "description": "Created a web application that enables users to manipulate their music in a way similar to the popular Stem Player device created by Kanye West. Used by an average of 1000 people per week.",
       "url": "https://stemplayeronline.com",
       "keywords": [
         "Javascript",
@@ -135,7 +135,7 @@
     {
       "name": "3cards",
       "url": "https://lukew3-3cards.netlify.app",
-      "description": "A web3 application that allows users to create and share flashcard sets stored on the Arweave, a decentralized blockchain-like storage network. Won a prize at the Arweave Open Web Hackathon.",
+      "description": "Created a web3 application that allows users to create and share flashcard sets stored on the Arweave, a decentralized blockchain-like storage network. Winner in the Arweave Open Web Hackathon.",
       "keywords": [
         "Next.js"
       ]
@@ -156,7 +156,7 @@
         "Dart"
       ],
       "name": "Flag Quiz",
-      "description": "A flutter app where users can test their knowledge of national flags.",
+      "description": "Created a flutter app where users can test their knowledge of national flags.",
       "url": "https://github.com/lukew3/flag-quiz"
     },
     {
@@ -166,7 +166,7 @@
         "Javascript"
       ],
       "name": "BeautifulVHS",
-      "description": "A website that displays a moving, 3d rendering of old vhs covers.",
+      "description": "Created a website that displays a moving, 3d rendering of old vhs covers.",
       "url": "https://github.com/lukew3/beautifulvhs"
     },
     {
@@ -176,7 +176,7 @@
         "REST API"
       ],
       "name": "Recolorbot",
-      "description": "A Reddit bot that colors black and white images using an AI image coloring API.",
+      "description": "Created a Reddit bot that colors black and white images using an AI image coloring API.",
       "url": "https://github.com/lukew3/recolorbot"
     },
     {
@@ -185,7 +185,7 @@
         "Click"
       ],
       "name": "Ghlog",
-      "description": "A command line application to upload journal entries to a Github repository.",
+      "description": "Created a command line application to upload journal entries to a Github repository.",
       "url": "https://github.com/lukew3/ghlog"
     }
   ],
