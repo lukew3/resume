@@ -117,12 +117,12 @@
     {
       "keywords": [
         "Python",
-        "Object Oriented Programming",
+        "OOP",
         "Github"
       ],
       "name": "mathgenerator",
       "url": "https://github.com/lukew3/mathgenerator",
-      "description": "Created and maintain an open-source python package that generates a wide variety of math problems. Package has 90 stars on Github and has around 500 downloads per month."
+      "description": "Created and maintain an open-source python package that enables generating a wide variety of math problems. Package has 90 stars on Github and around 500 downloads per month."
     },
     {
       "description": "Created a website where users can store, share, search, discuss, vote on, and manage their ideas.",
