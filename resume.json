@@ -96,6 +96,33 @@
   ],
   "projects": [
     {
+      "name": "Stem Player Online",
+      "description": "Created a web application that enables users to manipulate their music in a way similar to the popular Stem Player device created by Kanye West. Used by around 3000 people per month.",
+      "url": "https://stemplayeronline.com",
+      "keywords": [
+        "Javascript",
+        "Web Audio"
+      ]
+    },
+    {
+      "name": "3cards",
+      "url": "https://3cards.io",
+      "description": "Created a web3 application that allows users to create and share flashcard sets stored on the Arweave, a decentralized blockchain-like storage network. Winner in the Arweave Open Web Hackathon.",
+      "keywords": [
+        "Next.js"
+      ]
+    },
+    {
+      "keywords": [
+        "Python",
+        "Object Oriented Programming",
+        "Github"
+      ],
+      "name": "mathgenerator",
+      "url": "https://github.com/lukew3/mathgenerator",
+      "description": "Created and maintain an open-source python package that generates a wide variety of math problems. Package has 90 stars on Github and has around 500 downloads per month."
+    },
+    {
       "description": "Created a website where users can store, share, search, discuss, vote on, and manage their ideas.",
       "url": "https://ideaspot.org",
       "keywords": [
@@ -124,31 +151,14 @@
       "url": "https://congol.net"
     },
     {
-      "name": "Stem Player Online",
-      "description": "Created a web application that enables users to manipulate their music in a way similar to the popular Stem Player device created by Kanye West. Used by around 3000 people per month.",
-      "url": "https://stemplayeronline.com",
-      "keywords": [
-        "Javascript",
-        "Web Audio"
-      ]
-    },
-    {
-      "name": "3cards",
-      "url": "https://3cards.io",
-      "description": "Created a web3 application that allows users to create and share flashcard sets stored on the Arweave, a decentralized blockchain-like storage network. Winner in the Arweave Open Web Hackathon.",
-      "keywords": [
-        "Next.js"
-      ]
-    },
-    {
       "keywords": [
         "Python",
-        "Object Oriented Programming",
-        "Github"
+        "PRAW",
+        "REST API"
       ],
-      "name": "mathgenerator",
-      "url": "https://github.com/lukew3/mathgenerator",
-      "description": "Created and maintain an open-source python package that generates a wide variety of math problems. Package has 90 stars on Github and has around 500 downloads per month."
+      "name": "Recolorbot",
+      "description": "Created a Reddit bot that colors black and white images using an AI image coloring API. Bot has colored images from over 100 posts.",
+      "url": "https://github.com/lukew3/recolorbot"
     },
     {
       "keywords": [
@@ -158,16 +168,6 @@
       "name": "Flag Quiz",
       "description": "Created a flutter app where users can test their knowledge of national flags.",
       "url": "https://github.com/lukew3/flag-quiz"
-    },
-    {
-      "keywords": [
-        "Python",
-        "PRAW",
-        "REST API"
-      ],
-      "name": "Recolorbot",
-      "description": "Created a Reddit bot that colors black and white images using an AI image coloring API. Bot has colored images from over 100 posts.",
-      "url": "https://github.com/lukew3/recolorbot"
     },
     {
       "keywords": [
