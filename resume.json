@@ -78,7 +78,7 @@
         "Git",
         "Relational Databases",
         "MongoDB",
-	"Docker",
+	      "Docker",
         "Web Developer Tools"
       ],
       "name": "Tools/Platforms"
@@ -133,7 +133,7 @@
         "Flask",
         "Nginx",
         "MongoDB",
-	"Linux"
+	      "Linux"
       ],
       "name": "Ideaspot"
     },
