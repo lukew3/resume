@@ -132,7 +132,7 @@
         "React",
         "Flask",
         "Nginx",
-        "Mongodb",
+        "MongoDB",
 	"Linux"
       ],
       "name": "Ideaspot"
