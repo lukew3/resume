@@ -176,7 +176,7 @@
         "REST API"
       ],
       "name": "Recolorbot",
-      "description": "Created a Reddit bot that colors black and white images using an AI image coloring API.",
+      "description": "Created a Reddit bot that colors black and white images using an AI image coloring API. Bot has colored images from over 100 posts.",
       "url": "https://github.com/lukew3/recolorbot"
     },
     {
