@@ -5,12 +5,12 @@
     "website": "https://github.com/username",
     "phone": "555-01234",
     "location": {
-      "address": "Major City, OH"
+      "address": "Major City, Midwest"
     }
   },
   "education": [
     {
-      "location": "Major City, OH",
+      "location": "Major City, Midwest",
       "area": "Computer Science and Engineering",
       "studyType": "BS",
       "startDate": "2021-08",
@@ -26,7 +26,7 @@
       ],
       "company": "Tech Company",
       "position": "Student Software Developer",
-      "location": "Big City, OH / Remote",
+      "location": "Big City, Midwest / Remote",
       "startDate": "2022-02",
       "endDate": "1111-11"
     },
