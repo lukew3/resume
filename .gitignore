@@ -4,7 +4,6 @@ build.rb
 resume.tex
 
 # pdflatex output
-resume.pdf
 resume.aux
 resume.log
 
