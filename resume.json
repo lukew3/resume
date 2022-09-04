@@ -79,7 +79,8 @@
         "Relational Databases",
         "MongoDB",
 	      "Docker",
-        "Typescript"
+        "Typescript",
+	"Nginx"
       ],
       "name": "Tools/Platforms"
     },
@@ -87,7 +88,6 @@
       "keywords": [
         "VS Code",
         "Microsoft Office",
-        "Nginx",
         "Firebase",
         "Figma",
 	"Web Developer Tools"
