@@ -79,7 +79,7 @@
         "Relational Databases",
         "MongoDB",
 	      "Docker",
-        "Web Developer Tools"
+        "Typescript"
       ],
       "name": "Tools/Platforms"
     },
@@ -89,7 +89,8 @@
         "Microsoft Office",
         "Nginx",
         "Firebase",
-        "Figma"
+        "Figma",
+	"Web Developer Tools"
       ],
       "name": "."
     }
