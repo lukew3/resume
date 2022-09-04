@@ -1,43 +1,43 @@
 {
   "basics": {
-    "name": "Luke Weiler",
-    "email": "lukew25073@gmail.com",
-    "website": "https://github.com/lukew3",
-    "phone": "(440) 532-0588",
+    "name": "First Last",
+    "email": "email@gmail.com",
+    "website": "https://github.com/username",
+    "phone": "555-01234",
     "location": {
-      "address": "Columbus, OH"
+      "address": "Major City, OH"
     }
   },
   "education": [
     {
-      "location": "Columbus, OH",
+      "location": "Major City, OH",
       "area": "Computer Science and Engineering",
       "studyType": "BS",
       "startDate": "2021-08",
       "endDate": "2024-05",
-      "institution": "The Ohio State University"
+      "institution": "t50 university"
     }
   ],
   "work": [
     {
       "highlights": [
         "Use Ruby on Rails to create a dashboard that displays information about the status of various supercomputer resources.",
-        "Write and publish various features and bug fixes for the OpenOndemand web app, a gateway enabling researchers to utilize the world's most powerful supercomputers."
+        "Write and publish various features and bug fixes for the companies web app, a gateway enabling researchers to utilize the world's most powerful supercomputers."
       ],
-      "company": "Ohio Supercomputer Center",
+      "company": "Tech Company",
       "position": "Student Software Developer",
-      "location": "Columbus, OH / Remote",
+      "location": "Big City, OH / Remote",
       "startDate": "2022-02",
       "endDate": "1111-11"
     },
     {
       "website": "",
       "highlights": [
-        "Created the MongoDB database, Express.js API, and the connecting client code for Monkeytype.com, which is currently serving over 100k unique users every day.",
+        "Created the MongoDB database, Express.js API, and the connecting client code for FOSS Website, which is currently serving over 100k unique users every day.",
         "Immediately reduced costs by 70 percent and slowed the rate of increasing cloud service costs.",
         "Worked with the owner/lead developer and a more experienced professional to ensure a smooth deployment."
       ],
-      "company": "Monkeytype",
+      "company": "FOSS Website",
       "position": "Open Source Contributor",
       "location": "Remote",
       "startDate": "2021-04",
@@ -97,17 +97,17 @@
   ],
   "projects": [
     {
-      "name": "Stem Player Online",
+      "name": "name",
       "description": "Created a web application that enables users to manipulate their music in a way similar to the popular Stem Player device created by Kanye West. Used by around 3000 people per month.",
-      "url": "https://stemplayeronline.com",
+      "url": "link",
       "keywords": [
         "Javascript",
         "Web Audio"
       ]
     },
     {
-      "name": "3cards",
-      "url": "https://3cards.io",
+      "name": "name",
+      "url": "link",
       "description": "Created a web3 application that allows users to create and share flashcard sets stored on the Arweave, a decentralized blockchain-like storage network. Winner in the Arweave Open Web Hackathon.",
       "keywords": [
         "Javascript",
@@ -121,13 +121,13 @@
         "OOP",
         "Github"
       ],
-      "name": "mathgenerator",
-      "url": "https://github.com/lukew3/mathgenerator",
+      "name": "name",
+      "url": "link",
       "description": "Created and maintain an open-source python package that enables generating a wide variety of math problems. Package has 90 stars on Github and around 500 downloads per month."
     },
     {
       "description": "Created a website where users can store, share, search, discuss, vote on, and manage their ideas.",
-      "url": "https://ideaspot.org",
+      "url": "link",
       "keywords": [
         "Python",
         "React",
@@ -136,7 +136,7 @@
         "MongoDB",
 	      "Linux"
       ],
-      "name": "Ideaspot"
+      "name": "name"
     },
     {
       "keywords": [
@@ -149,9 +149,9 @@
         "Socket.io",
         "CSS"
       ],
-      "name": "Congol",
+      "name": "name",
       "description": "Created a website that allows users to play a version of Conway's Game of Life with 2 players competing live over the internet.",
-      "url": "https://congol.net"
+      "url": "link"
     },
     {
       "keywords": [
@@ -159,18 +159,18 @@
         "PRAW",
         "REST API"
       ],
-      "name": "Recolorbot",
+      "name": "name",
       "description": "Created a Reddit bot that colors black and white images using an AI image coloring API. Bot has colored images from over 100 posts.",
-      "url": "https://github.com/lukew3/recolorbot"
+      "url": "link"
     },
     {
       "keywords": [
         "Flutter",
         "Dart"
       ],
-      "name": "Flag Quiz",
+      "name": "name",
       "description": "Created a flutter app where users can test their knowledge of national flags.",
-      "url": "https://github.com/lukew3/flag-quiz"
+      "url": "link"
     },
     {
       "keywords": [
@@ -178,9 +178,9 @@
         "Webpack",
         "Javascript"
       ],
-      "name": "BeautifulVHS",
+      "name": "name",
       "description": "Created a website that displays a moving, 3d rendering of old vhs covers.",
-      "url": "https://github.com/lukew3/beautifulvhs"
+      "url": "link"
     }
   ],
   "volunteer": [{
