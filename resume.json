@@ -11,27 +11,18 @@
   "education": [
     {
       "location": "Columbus, OH",
-      "area": "Computer Science and Engineering | Officer at Competitive Programming Club",
+      "area": "Computer Science and Engineering",
       "studyType": "BS",
       "startDate": "2021-08",
       "endDate": "2024-05",
       "institution": "The Ohio State University"
-    },
-    {
-      "institution": "Avon High School",
-      "endDate": "2021-05",
-      "location": "Avon, OH",
-      "studyType": "High School Diploma",
-      "startDate": "2017-08",
-      "score": "4.3W/3.9UW"
     }
   ],
   "work": [
     {
       "highlights": [
-        "Created a dashboard that displays information about the status of various supercomputer resources.",
-        "Wrote and published many features and bug fixes for the OpenOndemand web app, a gateway enabling researchers to utilize the world's most powerful supercomputers.",
-        "Utilized Ruby and Ruby on Rails, Linux, Github, Node.js, Bash, Slurm."
+        "Use Ruby on Rails to create a dashboard that displays information about the status of various supercomputer resources.",
+        "Write and publish various features and bug fixes for the OpenOndemand web app, a gateway enabling researchers to utilize the world's most powerful supercomputers."
       ],
       "company": "Ohio Supercomputer Center",
       "position": "Student Software Developer",
@@ -42,13 +33,12 @@
     {
       "website": "",
       "highlights": [
-        "Created the MongoDB database, Express.js API and the connecting client code for Monkeytype.com, a site that serves over 100k unique visitors each day.",
+        "Created the MongoDB database, Express.js API, and the connecting client code for Monkeytype.com, which is currently serving over 100k unique users every day.",
         "Immediately reduced costs by 70 percent and slowed the rate of increasing cloud service costs.",
-        "Worked with the owner/lead developer and a more experienced professional to ensure a smooth deployment.",
-        "Used Javascript, MongoDB, Node.js, Express.js, Linux, Git."
+        "Worked with the owner/lead developer and a more experienced professional to ensure a smooth deployment."
       ],
       "company": "Monkeytype",
-      "position": "Project Contributor",
+      "position": "Open Source Contributor",
       "location": "Remote",
       "startDate": "2021-04",
       "endDate": "2021-08"
@@ -86,21 +76,21 @@
       "keywords": [
         "Linux",
         "Git",
-        "GitHub",
         "Relational Databases",
         "MongoDB",
-        "Web Developer Tools"
+	      "Docker",
+        "Typescript",
+	"Nginx"
       ],
       "name": "Tools/Platforms"
     },
     {
       "keywords": [
         "VS Code",
-        "Windows",
         "Microsoft Office",
-        "Nginx",
         "Firebase",
-        "Figma"
+        "Figma",
+	"Web Developer Tools"
       ],
       "name": "."
     }
@@ -115,15 +105,44 @@
   ],
   "projects": [
     {
-      "description": "A website where users can store, share, discuss, vote on, and manage their ideas.",
+      "name": "Stem Player Online",
+      "description": "Created a web application that enables users to manipulate their music in a way similar to the popular Stem Player device created by Kanye West. Used by around 3000 people per month.",
+      "url": "https://stemplayeronline.com",
+      "keywords": [
+        "Javascript",
+        "Web Audio"
+      ]
+    },
+    {
+      "name": "3cards",
+      "url": "https://3cards.io",
+      "description": "Created a web3 application that allows users to create and share flashcard sets stored on the Arweave, a decentralized blockchain-like storage network. Winner in the Arweave Open Web Hackathon.",
+      "keywords": [
+        "Javascript",
+        "React.js",
+        "Next.js"
+      ]
+    },
+    {
+      "keywords": [
+        "Python",
+        "OOP",
+        "Github"
+      ],
+      "name": "mathgenerator",
+      "url": "https://github.com/lukew3/mathgenerator",
+      "description": "Created and maintain an open-source python package that enables generating a wide variety of math problems. Package has 90 stars on Github and around 500 downloads per month."
+    },
+    {
+      "description": "Created a website where users can store, share, search, discuss, vote on, and manage their ideas.",
       "url": "https://ideaspot.org",
       "keywords": [
         "Python",
         "React",
         "Flask",
         "Nginx",
-        "Mongodb",
-	"Linux"
+        "MongoDB",
+	      "Linux"
       ],
       "name": "Ideaspot"
     },
@@ -139,35 +158,18 @@
         "CSS"
       ],
       "name": "Congol",
-      "description": "A website that allows users to play Conway's Game of Life with 2 players competing live over the internet.",
+      "description": "Created a website that allows users to play a version of Conway's Game of Life with 2 players competing live over the internet.",
       "url": "https://congol.net"
-    },
-    {
-      "name": "Stem Player Online",
-      "description": "A web application that enables users to manipulate their music in a way similar to the popular Stem Player device created by Kanye West. Used by an average of 1000 people per week.",
-      "url": "https://stemplayeronline.com",
-      "keywords": [
-        "Javascript",
-        "Web Audio"
-      ]
-    },
-    {
-      "name": "3cards",
-      "url": "https://lukew3-3cards.netlify.app",
-      "description": "A web3 application that allows users to create and share flashcard sets stored on the Arweave, a decentralized blockchain-like storage network.",
-      "keywords": [
-        "Next.js"
-      ]
     },
     {
       "keywords": [
         "Python",
-        "Object Oriented Programming",
-        "Github"
+        "PRAW",
+        "REST API"
       ],
-      "name": "mathgenerator",
-      "url": "https://github.com/lukew3/mathgenerator",
-      "description": "Created and maintain an open-source python package that generates a wide variety of math problems. Package has 90 stars on Github and has around 1000 downloads per month."
+      "name": "Recolorbot",
+      "description": "Created a Reddit bot that colors black and white images using an AI image coloring API. Bot has colored images from over 100 posts.",
+      "url": "https://github.com/lukew3/recolorbot"
     },
     {
       "keywords": [
@@ -175,7 +177,7 @@
         "Dart"
       ],
       "name": "Flag Quiz",
-      "description": "A flutter app where users can test their knowledge of national flags.",
+      "description": "Created a flutter app where users can test their knowledge of national flags.",
       "url": "https://github.com/lukew3/flag-quiz"
     },
     {
@@ -185,30 +187,24 @@
         "Javascript"
       ],
       "name": "BeautifulVHS",
-      "description": "A website that displays a moving, 3d rendering of old vhs covers.",
+      "description": "Created a website that displays a moving, 3d rendering of old vhs covers.",
       "url": "https://github.com/lukew3/beautifulvhs"
-    },
-    {
-      "keywords": [
-        "Python",
-        "PRAW",
-        "REST API"
-      ],
-      "name": "Recolorbot",
-      "description": "A Reddit bot that colors black and white images using an AI image coloring API",
-      "url": "https://github.com/lukew3/recolorbot"
-    },
-    {
-      "keywords": [
-        "Python",
-        "Click"
-      ],
-      "name": "Ghlog",
-      "description": "A command line application to upload journal entries to a Github repository.",
-      "url": "https://github.com/lukew3/ghlog"
     }
   ],
+  "volunteer": [{
+    "organization": "Competitive Programming Club",
+    "position": "Officer",
+    "startDate": "2022-04",
+    "endDate": "1111-11",
+    "summary": "",
+    "highlights": [
+      "Work with team to plan weekly meetings and events, creating educational content for club members.",
+      "Lead efforts to acquire funding for the club and it's various events."
+    ]
+  }],
+  "certificates": [],
   "awards": [
     {}
   ]
 }
+
