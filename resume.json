@@ -57,7 +57,6 @@
         "Java",
         "SQL",
         "Dart",
-        "Pug"
       ],
       "name": "Programming Languages"
     },
@@ -146,8 +145,7 @@
         "MongoDB",
         "Node.js",
         "Browserify",
-        "Socket.io",
-        "CSS"
+        "Socket.io"
       ],
       "name": "Congol",
       "description": "Created a website that allows users to play a version of Conway's Game of Life with 2 players competing live over the internet.",
