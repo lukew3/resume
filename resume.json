@@ -96,7 +96,7 @@
   "projects": [
     {
       "name": "Stem Player Online",
-      "description": "Created a web application that enables users to manipulate their music in a way similar to the popular Stem Player device created by Kanye West. Used by around 3000 people per month.",
+      "description": "Created a web application that enables users to manipulate music in a way similar to the popular Stem Player device. Used by around 3000 people per month.",
       "url": "https://stemplayeronline.com",
       "keywords": [
         "Javascript",
