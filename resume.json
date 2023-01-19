@@ -21,7 +21,7 @@
   "work": [
     {
       "highlights": [
-        "Use Ruby on Rails to create a dashboard that displays information about the status of various supercomputer resources.",
+        "Using Ruby on Rails to create a dashboard that displays information about the status of various supercomputer resources.",
         "Write and publish various features and bug fixes for the OpenOndemand web app, a gateway enabling researchers to utilize the world's most powerful supercomputers."
       ],
       "company": "Ohio Supercomputer Center",
@@ -102,7 +102,7 @@
       ],
       "name": "mathgenerator",
       "url": "https://github.com/lukew3/mathgenerator",
-      "description": "Created and maintain an open-source python package that enables generating a wide variety of math problems. Featured on Hacker News, reaching rank 5. Has over 500 stars on Github."
+      "description": "Created and maintain an open-source python package that enables generating a wide variety of math exercises. Featured on Hacker News, reaching rank 5. Has over 500 stars on Github."
     },
     {
       "name": "Stem Player Online",
