@@ -47,20 +47,21 @@
   "skills": [
     {
       "level": "",
+      "name": "Programming Languages",
       "keywords": [
         "Python",
         "Javascript",
+	"C/C++",
         "Ruby",
-        "C/C++",
         "HTML",
         "CSS",
         "Java",
         "SQL",
         "Dart"
-      ],
-      "name": "Programming Languages"
+      ]
     },
     {
+      "name": "Frameworks",
       "keywords": [
         "React",
         "Express.js",
@@ -68,29 +69,28 @@
         "Flask",
         "Next.js",
         "Flutter"
-      ],
-      "name": "Frameworks"
+      ]
     },
     {
+      "name": "Tools/Platforms",
       "keywords": [
         "Linux",
         "Git",
         "Relational Databases",
         "MongoDB",
-	      "Docker",
+	"Docker",
         "Typescript",
 	"Nginx"
-      ],
-      "name": "Tools/Platforms"
+      ]
     },
     {
+      "name": ".",
       "keywords": [
         "VS Code",
         "Firebase",
         "Figma",
 	"Web Developer Tools"
-      ],
-      "name": "."
+      ]
     }
   ],
   "projects": [
