@@ -22,7 +22,7 @@
     {
       "highlights": [
         "Using Ruby on Rails to create a dashboard that displays information about the status of various supercomputer resources.",
-        "Write and publish various features and bug fixes for the OpenOndemand web app, a gateway enabling researchers to utilize the world's most powerful supercomputers."
+        "Write and publish various features and bug fixes for OpenOndemand, an open-source web platform enabling researchers to interface with the world's most powerful linux supercomputers through a web interface."
       ],
       "company": "Ohio Supercomputer Center",
       "position": "Student Software Developer",
