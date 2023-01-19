@@ -95,15 +95,6 @@
   ],
   "projects": [
     {
-      "name": "Stem Player Online",
-      "description": "Created a web application that enables users to manipulate music in a way similar to the popular Stem Player device. Used by around 3000 people per month.",
-      "url": "https://stemplayeronline.com",
-      "keywords": [
-        "Javascript",
-        "Web Audio"
-      ]
-    },
-    {
       "keywords": [
         "Python",
         "OOP",
@@ -112,6 +103,15 @@
       "name": "mathgenerator",
       "url": "https://github.com/lukew3/mathgenerator",
       "description": "Created and maintain an open-source python package that enables generating a wide variety of math problems. Featured on Hacker News, reaching rank 5. Has over 500 stars on Github."
+    },
+    {
+      "name": "Stem Player Online",
+      "description": "Created a web application that enables users to manipulate music in a way similar to the popular Stem Player device. Used by around 3000 people per month.",
+      "url": "https://stemplayeronline.com",
+      "keywords": [
+        "Javascript",
+        "Web Audio"
+      ]
     },
     {
       "name": "3cards",
