@@ -5,7 +5,7 @@ The latest pdf build can be downloaded [here](https://github.com/lukew3/resume/r
 
 
 ## How it works
-The content of my resume is stored in the [`resume.json`](https://github.com/lukew3/resume/blob/main/resume.json) file, following the defined by [jsonresume.org](https://jsonresume.org/schema/). When a release is created, the [`release.yml`](https://github.com/lukew3/resume/blob/main/.github/workflows/release.yml) workflow is ran.
+The content of my resume is stored in the [`resume.json`](https://github.com/lukew3/resume/blob/main/resume.json) file, following the schema defined by [jsonresume.org](https://jsonresume.org/schema/). When a release is created, the [`release.yml`](https://github.com/lukew3/resume/blob/main/.github/workflows/release.yml) workflow is ran.
 
 ### Release.yml
 The following are the steps taken by release.yml.
