@@ -11,7 +11,7 @@ The content of my resume is stored in the [`resume.json`](https://github.com/luk
 The following are the steps taken by release.yml.
 1. Validates json resume using [lukew3/validate-json-resume-action](https://github.com/lukew3/validate-json-resume-action).
 2. Fill [`template.tex.erb`](https://github.com/lukew3/resume/blob/main/template.tex.erb) with contents of [`resume.json`](https://github.com/lukew3/resume/blob/main/resume.json) using [lukew3/json-fill-erb-action](https://github.com/lukew3/json-fill-erb-action).
-3. `resume.tex` which was created by step 2 is built to `resume.pdf` with [`xu-cheng/latex-action`](https://github.com/xu-cheng/latex-action).
+3. `resume.tex` which was created by step 2 is built to `resume.pdf` with [xu-cheng/latex-action](https://github.com/xu-cheng/latex-action).
 4. The resulting pdf is uploaded to the latest release with the file name `{username}_resume.pdf`.
 
 ## Building
