@@ -124,7 +124,7 @@ end
     \textbf{<%= job['company'] %>} \hfill <%= job['location'] %>\\
     \textit{<%= job['position'] %>} \hfill <%= formatDate(job['startDate']) + ' - ' + formatDate(job['endDate']) %>\\
     \vspace{-1mm}
-    \begin{itemize} \itemsep 1pt
+    \begin{itemize} \itemsep -2pt
         <% job['highlights'].each do |highlight| %>
             \item <%= highlight %>
         <% end %>
@@ -148,7 +148,7 @@ end
     \textbf{<%= job['organization'] %>} \hfill <%= formatDate(job['startDate']) + ' - ' + formatDate(job['endDate']) %>\\
     \textit{<%= job['position'] %>} %>\\
     \vspace{-1mm}
-    \begin{itemize} \itemsep 1pt
+    \begin{itemize} \itemsep -2pt
         <% job['highlights'].each do |highlight| %>
             \item <%= highlight %>
         <% end %>
