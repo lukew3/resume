@@ -21,5 +21,5 @@ The following are the steps taken by [`release.yml`](https://github.com/lukew3/r
 3. `resume.tex` which was created by step 2 is built to `resume.pdf` with [xu-cheng/latex-action](https://github.com/xu-cheng/latex-action).
 4. The resulting pdf is uploaded to the latest release with the file name `{username}_resume.pdf`.
 
-## Building on Your PC
+### Building on Your PC
 The release workflow will automatically build a pdf on release. If you want to render locally, you can use the `build.rb` file [here](https://github.com/lukew3/resume/blob/local-build/build.rb) and then run `pdflatex resume.tex`.
