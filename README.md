@@ -6,7 +6,8 @@ The latest pdf build can be downloaded [here](https://github.com/lukew3/resume/r
 ### How to use it for your own resume
 1. Fork the repo
 2. Click on the actions tab of the forked repo and enable actions
-3. Make desired changes to the `resume.json` file and/or `template.tex.erb`
+3. Click on the settings tab, go to actions->general on the sidebar, scroll down to workflow permissions, set to "Read and write permissions", and save.
+4. Make desired changes to the `resume.json` file and/or `template.tex.erb`
 5. Click on the Releases sidebar on your Github fork, draft a new release, add a tag like `0.0.1` and click "Publish release". Your generated pdf will appear in the assets section of the release in around 2.5 minutes.
 
 Make a release every time that you want to publish a new version of your resume. You can then download the pdf from the assets section or have a permanent link to the latest release with a url of the format `https://github.com/{yourUsername}/resume/releases/latest/download/{yourUsername}_resume.pdf` where `{yourUsername}` is replaced with your Github username.
