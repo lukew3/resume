@@ -21,21 +21,30 @@
   "work": [
     {
       "highlights": [
-        "Designing and building a dashboard that displays information about the status of various supercomputer resources using Ruby and Ruby on Rails.",
-        "Write and publish various features and bug fixes for OpenOndemand, an open-source web platform enabling researchers to interface with powerful linux supercomputers through a web interface."
+        "Using Java and AWS to develop a platform to manage API endpoint tests"
+      ],
+      "company": "JPMorgan Chase & Co.",
+      "position": "Software Development Intern",
+      "location": "Columbus, OH",
+      "startDate": "2023-06",
+      "endDate": "1111-11"
+    },
+    {
+      "highlights": [
+        "Designed and built a dashboard that displays information about the status of various supercomputer resources using Ruby and Ruby on Rails.",
+        "Wrote and published various features and bug fixes for OpenOndemand, an open-source web platform enabling researchers to interface with powerful linux supercomputers through a web interface."
       ],
       "company": "Ohio Supercomputer Center",
       "position": "Student Software Engineer",
       "location": "Columbus, OH / Remote",
       "startDate": "2022-02",
-      "endDate": "1111-11"
+      "endDate": "2023-05"
     },
     {
       "website": "",
       "highlights": [
         "Created the MongoDB database, Express.js API, and connecting client code for monkeytype.com, which serves over 100k unique users every day.",
         "Identified and corrected inefficient processes, immediately reducing costs by 70 percent and slowing the rate of increasing cloud service costs.",
-        "Collaborated with the lead developer and a more experienced professional to ensure a smooth deployment."
       ],
       "company": "Monkeytype",
       "position": "Full Stack Open Source Contributor",
