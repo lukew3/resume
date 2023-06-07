@@ -21,7 +21,8 @@
   "work": [
     {
       "highlights": [
-        "Using Java and AWS to develop a platform to manage API endpoint tests"
+        "Using Java to develop a platform to manage API endpoint tests",
+	"Refactoring loan approval systems into cloud microservices on AWS"
       ],
       "company": "JPMorgan Chase and Co.",
       "position": "Software Development Intern",
