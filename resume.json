@@ -32,7 +32,7 @@
     },
     {
       "highlights": [
-        "Designed and built a dashboard that displays information about the status of various supercomputer resources using Ruby and Ruby on Rails.",
+        "Designed and built a web app that identifies and displays information about the status of various supercomputer resources using Ruby on Rails.",
         "Wrote and published various features and bug fixes for OpenOndemand, an open-source web platform enabling researchers to interface with powerful linux supercomputers through a web interface."
       ],
       "company": "Ohio Supercomputer Center",
