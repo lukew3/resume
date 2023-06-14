@@ -124,7 +124,7 @@
     },
     {
       "name": "Regilo",
-      "description": "Created a desktop application that allows users to control their computer with a custom controller on their phone. Uses an http and websocket server in C/C++ for maximum performance.",
+      "description": "Created a desktop application that allows users to interfce with their computer via a custom controller sent to their phone. Uses an http and websocket server in C/C++ for maximum performance.",
       "url": "https://github.com/lukew3/regilo",
       "keywords": [
         "C/C++",
