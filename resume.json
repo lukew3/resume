@@ -21,7 +21,7 @@
   "work": [
     {
       "highlights": [
-        "Using Java to develop a platform to manage API endpoint tests",
+        "Using Python and React on AWS Lambda, S3, and DynamoDB to develop a platform to manage API endpoint tests",
 	"Refactoring loan approval systems into cloud microservices on AWS"
       ],
       "company": "JPMorgan Chase and Co.",
