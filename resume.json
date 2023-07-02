@@ -21,7 +21,7 @@
   "work": [
     {
       "highlights": [
-        "Using Python and React on AWS Lambda, S3, and DynamoDB to develop a platform to manage API endpoint tests"
+        "Using Python and React on AWS Lambda, S3, and DynamoDB with Terraform to develop a platform to manage API endpoint tests"
       ],
       "company": "JPMorgan Chase and Co.",
       "position": "Software Development Intern",
