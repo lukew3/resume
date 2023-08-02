@@ -87,18 +87,15 @@
         "Git",
         "Relational Databases",
         "MongoDB",
-	"Docker",
-        "Typescript",
-	"Nginx"
+       	"Docker",
+       	"Nginx",
+        "Figma"
       ]
     },
     {
-      "name": ".",
+      "name": "Certifications",
       "keywords": [
-        "VS Code",
-        "Firebase",
-        "Figma",
-	"Web Developer Tools"
+        "AWS Cloud Practitioner",
       ]
     }
   ],
