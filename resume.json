@@ -124,9 +124,7 @@
       "description": "Created a desktop application that allows users to interfce with their computer via a custom controller sent to their phone. Uses an http and websocket server in C/C++ for maximum performance.",
       "url": "https://github.com/lukew3/regilo",
       "keywords": [
-        "C/C++",
-	"GTK",
-	"Mongoose"
+        "C/C++"
       ]
     },
     {
