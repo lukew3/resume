@@ -21,13 +21,14 @@
   "work": [
     {
       "highlights": [
-        "Using Python and React on AWS Lambda, S3, and DynamoDB with Terraform to develop a platform to manage API endpoint tests"
+	"Created a serverless Python and React.js web app that enables instant sharing of API tests using a centralized DynamoDB database, reducing time spent waiting for team member communication by about 3 hours per week.",
+	"Utilized user research, meetings/presentations with stakeholders, and iterative development.",
       ],
       "company": "JPMorgan Chase and Co.",
       "position": "Software Development Intern",
       "location": "Columbus, OH",
       "startDate": "2023-06",
-      "endDate": "1111-11"
+      "endDate": "2023-08"
     },
     {
       "highlights": [
