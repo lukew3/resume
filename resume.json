@@ -21,8 +21,8 @@
   "work": [
     {
       "highlights": [
-	"Created a serverless Python and React.js web app that enables instant sharing of API tests using a centralized DynamoDB database, reducing time spent waiting for team member communication by about 3 hours per week.",
-	"Utilized user research, meetings/presentations with stakeholders, and iterative development."
+	"Spearheaded the development of a serverless Python and React.js web app that uses a centralized DynamoDB database to reduce team communication time by about 3 hours per week.",
+	"Conducted comprehensive user research, engaging in frequent meetings and presentations with stakeholders to ensure alignment with project goals."
       ],
       "company": "JPMorgan Chase and Co.",
       "position": "Software Engineering Intern",
@@ -32,8 +32,8 @@
     },
     {
       "highlights": [
-        "Designed and developed a robust web application using Ruby on Rails to efficiently identify and display real-time information about the status of various supercomputer resources.",
-        "Implemented new features and bug fixes for OpenOndemand, an open-source web platform enabling researchers to interface with powerful linux supercomputers through a web interface."
+        "Conceptualized and executed the development of a robust web application utilizing Ruby on Rails. The application efficiently displays real-time information about the status of a diverse set of supercomputer resources.",
+        "Delivered feature enhancements and resolved bugs for the OpenOndemand platform, empowering researchers to seamlessly interface with Linux supercomputers through a user-friendly web interface."
       ],
       "company": "Ohio Supercomputer Center",
       "position": "Student Software Engineer",
@@ -44,7 +44,7 @@
     {
       "website": "",
       "highlights": [
-        "Created the MongoDB database, Express.js API, and connecting client code for monkeytype.com, which serves over 100k unique users every day.",
+        "Drove the creation of the MongoDB database, Express.js API, and connecting client code for monkeytype.com, enabling fast and efficient data storage for over 100k unique users every day.",
         "Identified and corrected inefficient processes, immediately reducing costs by 70 percent and slowing the rate of increasing cloud service costs."
       ],
       "company": "Monkeytype",
