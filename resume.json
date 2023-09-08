@@ -129,7 +129,7 @@
     },
     {
       "name": "3cards",
-      "url": "https://3cards.io",
+      "url": "https://github.com/lukew3/3cards",
       "description": "Created a web3 application that allows users to create and share flashcard sets at 0 cost. Powered by Arweave, a decentralized blockchain-like storage network. Winner in the Arweave Open Web Hackathon.",
       "keywords": [
         "Javascript",
