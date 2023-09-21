@@ -1,6 +1,8 @@
 # lukew3/resume
 Tracking how my resume changes using JSONresume. Feel free to fork or copy my github workflows and watch github actions automatically validate and build your resume on release.
 
+Inspired by [resumake.io](https://github.com/saadq/resumake.io)
+
 The latest pdf build can be downloaded [here](https://github.com/lukew3/resume/releases/latest/download/lukew3_resume.pdf)
 
 ### How to use it for your own resume
