@@ -20,6 +20,17 @@
   "work": [
     {
       "highlights": [
+        "Contributed to the creation of a new AWS EKS microservice for the Chase Automobile Loan Originations team, isolating the lease eligibility decision process.",
+	"Contributed to decision logic and system observability with Splunk and Datadog."
+      ],
+      "company": "JPMorgan Chase and Co.",
+      "position": "Software Engineering Intern",
+      "location": "Columbus, OH",
+      "startDate": "2023-09",
+      "endDate": "2024-06"
+    },
+    {
+      "highlights": [
 	"Spearheaded the development of a serverless Python and React.js web app that uses a centralized DynamoDB database to reduce team communication time by about 3 hours per week.",
 	"Conducted comprehensive user research, engaging in frequent meetings and presentations with stakeholders to ensure alignment with project goals."
       ],
@@ -116,14 +127,6 @@
       "keywords": [
         "Javascript",
         "Web Audio"
-      ]
-    },
-    {
-      "name": "Regilo",
-      "description": "Created a desktop application that allows users to interface with their computer via a custom controller sent to their phone. Uses an http and websocket server in C/C++ for maximum performance.",
-      "url": "https://github.com/lukew3/regilo",
-      "keywords": [
-        "C/C++"
       ]
     },
     {
