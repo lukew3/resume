@@ -42,8 +42,7 @@
     },
     {
       "highlights": [
-        "Conceptualized and executed the development of a Ruby on Rails web app that efficiently displays real-time information about the status of a diverse set of supercomputer resources.",
-        "Delivered feature enhancements and resolved bugs for the OpenOndemand platform, empowering researchers to seamlessly interface with Linux supercomputers through a user-friendly web interface."
+        "Created a web-based dashboard for monitoring supercomputer resources using Ruby on Rails and delivered minor features and bug fixes for the OpenOndemand platform, empowering researchers to seamlessly interface with Linux supercomputers through a user-friendly web interface."
       ],
       "company": "Ohio Supercomputer Center",
       "position": "Student Software Engineer",
