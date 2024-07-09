@@ -140,19 +140,6 @@
       ]
     },
     {
-      "description": "Created a website to help people store, share, search, discuss, vote on, and manage their ideas.",
-      "url": "https://ideaspot.org",
-      "keywords": [
-        "Python",
-        "React",
-        "Flask",
-        "Nginx",
-        "MongoDB",
-	      "Linux"
-      ],
-      "name": "Ideaspot"
-    },
-    {
       "keywords": [
         "Javascript",
         "Express.js",
@@ -174,8 +161,7 @@
     "endDate": "1111-11",
     "summary": "",
     "highlights": [
-      "Work with team to plan weekly meetings and events, creating educational content for club members.",
-      "Lead efforts to acquire funding for the club and its various events."
+      "Work with team to plan weekly meetings and events, creating educational content for club members."
     ]
   }],
   "certificates": [],
