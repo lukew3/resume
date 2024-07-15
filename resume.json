@@ -20,6 +20,16 @@
   "work": [
     {
       "highlights": [
+        "Contributing to a full-stack application for creating government reports using React and Java Spring Boot."
+      ],
+      "company": "JPMorgan Chase and Co.",
+      "position": "Software Engineering Intern (Summer)",
+      "location": "Columbus, OH",
+      "startDate": "2024-06",
+      "endDate": "1111-11"
+    },
+    {
+      "highlights": [
         "Contributed to the creation of a new AWS EKS microservice for the Chase Automobile Loan Originations team, isolating the lease eligibility decision process.",
 	"Contributed to decision logic and system observability with Splunk and Datadog."
       ],
@@ -27,7 +37,7 @@
       "position": "Software Engineering Intern (Academic)",
       "location": "Columbus, OH",
       "startDate": "2023-09",
-      "endDate": "2024-06"
+      "endDate": "2024-05"
     },
     {
       "highlights": [
