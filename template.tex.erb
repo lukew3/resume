@@ -120,8 +120,10 @@ end
 \header{Work Experience}
 \vspace{1mm}
 
-<% work.each do |job| %>
-    \textbf{<%= job['company'] %>} \hfill <%= job['location'] %>\\
+<% work.each_with_index do |job, index| %>
+    <% if index == 0 or work[index-1]['location'] != work[index]['location'] %>
+    	\textbf{<%= job['company'] %>} \hfill <%= job['location'] %>\\
+    <% end %>
     \textit{<%= job['position'] %>} \hfill <%= formatDate(job['startDate']) + ' - ' + formatDate(job['endDate']) %>\\
     \vspace{-3mm}
     \begin{itemize} \itemsep -2pt
