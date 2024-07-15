@@ -20,7 +20,7 @@
   "work": [
     {
       "highlights": [
-        "Contributing to a full-stack application for creating government reports using React and Java Spring Boot."
+        "Contributing to a new full-stack application for creating regulatory reports using React and Java Spring Boot."
       ],
       "company": "JPMorgan Chase and Co.",
       "position": "Software Engineering Intern (Summer)",
@@ -82,7 +82,6 @@
         "Javascript",
 	"C/C++",
         "Ruby",
-        "HTML",
         "CSS",
         "Java",
         "SQL",
@@ -93,11 +92,12 @@
       "name": "Frameworks",
       "keywords": [
         "React",
-        "Express.js",
-        "Ruby On Rails",
+	"Redux",
+	"Spring Boot",
+        "Rails",
         "Flask",
 	"Django",
-	"Spring Boot",
+	"Express.js",
         "Next.js",
         "Flutter"
       ]
