@@ -23,6 +23,10 @@ jobs:
           erb_path: template.tex.erb
           out_path: resume.tex
 
+      - uses: actions/upload-artifact@v4
+        with:
+          path: resume.tex
+
       - name: tex to pdf
         uses: xu-cheng/latex-action@v2
         with:
