@@ -96,6 +96,8 @@
         "Express.js",
         "Ruby On Rails",
         "Flask",
+	"Django",
+	"Spring Boot",
         "Next.js",
         "Flutter"
       ]
