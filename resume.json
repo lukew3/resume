@@ -117,7 +117,8 @@
     {
       "name": "Certifications",
       "keywords": [
-        "AWS Cloud Practitioner"
+        "AWS Cloud Practitioner",
+	"Certified Kubernetes Application Developer (CKAD)"
       ]
     }
   ],
