@@ -101,6 +101,7 @@ end
 
 %==== Education ====%
 \header{Education}
+\vspace{1mm}
 <% education.each do |school| %>
     \textbf{<%= school['institution'] %>}\hfill <%= school['location'] %>\\
     <%= school['studyType'] %> <%= school['area'] %> <%= school['gpa'] ? "\\textit{GPA: #{school['gpa']}}" : ''%>\hfill <%= formatDate(school['startDate']) + ' - ' + formatDate(school['endDate']) %>\\
@@ -109,6 +110,7 @@ end
 
 %==== Skills ====%
 \header{Skills}
+\vspace{1mm}
 \begin{tabular}{ l l }
 <% skills.each do |skill| %>
     <%= skill['name'] %>:   & <%= skill['keywords'].map{ |e| "#{e}"}.join(', ') %>  \\
