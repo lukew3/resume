@@ -148,9 +148,9 @@ end
 \vspace{1mm}
 
 <% volunteer.each do |job| %>
-    \textbf{<%= job['organization'] %>} \hfill <%= formatDate(job['startDate']) + ' - ' + formatDate(job['endDate']) %>\\
-    \textit{<%= job['position'] %>} %>\\
-    \vspace{-1mm}
+    \textbf{<%= job['organization'] %>} \textit{/ <%= job['position'] %>} \hfill <%= formatDate(job['startDate']) + ' - ' + formatDate(job['endDate']) %>\\
+    %>\\
+    \vspace{1mm}
     \begin{itemize} \itemsep -2pt
         <% job['highlights'].each do |highlight| %>
             \item <%= highlight %>
