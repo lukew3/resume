@@ -155,12 +155,13 @@ end
 <% volunteer.each do |job| %>
     \textbf{<%= job['organization'] %>} \textit{/ <%= job['position'] %>} \hfill <%= formatDate(job['startDate']) + ' - ' + formatDate(job['endDate']) %>\\
     %>\\
-    \vspace{0mm}
-    \itemsep -2pt
+    \vspace{-3mm}
+    \begin{itemize} \itemsep -1pt
     <% job['highlights'].each do |highlight| %>
-        <%= highlight %>
+        \item <%= highlight %>
     <% end %>
-    \vspace{1mm}
+    \end{itemize}
+    \vspace{-1mm}
 <% end %>
 
 %==== Projects ====%
