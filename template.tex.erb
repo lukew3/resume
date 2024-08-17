@@ -110,7 +110,8 @@ end
 
 %==== Skills ====%
 \header{Skills}
-\vspace{1mm}
+\vspace{1.5mm}
+\hspace{-3mm}
 \begin{tabular}{ l l }
 <% skills.each do |skill| %>
     <%= skill['name'] %>:   & <%= skill['keywords'].map{ |e| "#{e}"}.join(', ') %>  \\
