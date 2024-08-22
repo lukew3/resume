@@ -95,7 +95,7 @@ end
     <% end %>
     \textit{<%= job['position'] %>} \hfill <%= formatDate(job['startDate']) + ' - ' + formatDate(job['endDate']) %>\\
     \vspace{-2mm}
-    \begin{itemize} \itemsep -2mm
+    \begin{itemize} \itemsep -1mm
         <% job['highlights'].each do |highlight| %>
             \item <%= highlight %>
         <% end %>
