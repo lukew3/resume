@@ -23,10 +23,6 @@ jobs:
           erb_path: template.tex.erb
           out_path: resume.tex
 
-      - uses: actions/upload-artifact@v4
-        with:
-          path: resume.tex
-
       - name: tex to pdf
         uses: xu-cheng/latex-action@v2
         with:
@@ -38,7 +34,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Upload Release files
+      - name: Upload resume.pdf
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -47,4 +43,15 @@ jobs:
           asset_path: resume.pdf
           asset_name: ${{ github.actor }}_resume.pdf
           asset_content_type: application/pdf
+
+      - name: Upload resume.tex
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.get_release.outputs.upload_url }}
+          asset_path: resume.tex
+          asset_name: ${{ github.actor }}_resume.tex
+          asset_content_type: application/x-tex
+          
 
