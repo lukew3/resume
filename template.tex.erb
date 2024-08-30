@@ -71,7 +71,7 @@ end
 \vspace{1mm}
 <% education.each do |school| %>
     \textbf{<%= school['institution'] %>}\hfill <%= formatDate(school['startDate']) + ' - ' + formatDate(school['endDate']) %>\\
-    <%= school['studyType'] %>\hfill <%= school['area'] %> <%= school['gpa'] ? "\\textit{GPA: #{school['gpa']}}" : ''%>\\
+    <%= school['studyType'] %> <%= school['area'] %>\hfill <%= school['gpa'] ? "\\textit{GPA: #{school['gpa']}}" : ''%>\\
     \vspace{2mm}
 <% end %>
 
