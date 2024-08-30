@@ -11,7 +11,7 @@
     {
       "location": "Columbus, OH",
       "area": "Computer Science and Engineering",
-      "studyType": "BS",
+      "studyType": "B.S.",
       "startDate": "2021-08",
       "endDate": "2025-05",
       "institution": "The Ohio State University"
@@ -21,7 +21,7 @@
     {
       "highlights": [
         "Quickly onboarded to a large and developing full-stack application for creating regulatory reports using React and Java Spring Boot, contributing 33 merged prs in 10 weeks.",
-	"Successfully deployed the first production release of our application, taking part in thorough end-to-end testing and deployment processes."
+	      "Successfully deployed the first production release of our application, taking part in thorough end-to-end testing and deployment processes."
       ],
       "company": "JPMorgan Chase and Co.",
       "position": "Software Engineering Intern (Summer)",
@@ -32,7 +32,7 @@
     {
       "highlights": [
         "Contributed to the creation of a new AWS EKS microservice for the Chase Automobile Loan Originations team, isolating the lease eligibility decision process.",
-	"Contributed to decision logic and system observability with Splunk and Datadog."
+	      "Contributed to decision logic and system observability with Splunk and Datadog."
       ],
       "company": "JPMorgan Chase and Co.",
       "position": "Software Engineering Intern (Academic)",
@@ -42,8 +42,8 @@
     },
     {
       "highlights": [
-	"Spearheaded the development of a serverless Python and React.js web app that uses a centralized DynamoDB database to reduce team communication time by about 3 hours per week.",
-	"Conducted comprehensive user research, engaging in frequent meetings and presentations with stakeholders to ensure alignment with project goals."
+	      "Spearheaded the development of a serverless Python and React.js web app that uses a centralized DynamoDB database to reduce team communication time by about 3 hours per week.",
+	      "Conducted comprehensive user research, engaging in frequent meetings and presentations with stakeholders to ensure alignment with project goals."
       ],
       "company": "JPMorgan Chase and Co.",
       "position": "Software Engineering Intern (Summer)",
@@ -81,8 +81,8 @@
       "keywords": [
         "Python",
         "Javascript",
-	"Java",
-	"C/C++",
+	      "Java",
+	      "C/C++",
         "Ruby",
         "CSS",
         "SQL",
@@ -93,12 +93,12 @@
       "name": "Frameworks",
       "keywords": [
         "React",
-	"Redux",
-	"Spring Boot",
+	      "Redux",
+	      "Spring Boot",
         "Rails",
         "Flask",
-	"Django",
-	"Express.js",
+	      "Django",
+	      "Express.js",
         "Next.js",
         "Flutter"
       ]
@@ -106,9 +106,13 @@
     {
       "name": "Tools/Platforms",
       "keywords": [
+        "Docker",
+        "AWS",
+        "Kubernetes",
         "Linux",
         "Git",
-        "Relational Databases",
+        "PostgreSQL",
+        "Oracle SQL",
         "MongoDB",
        	"Docker",
        	"Nginx",
@@ -119,7 +123,7 @@
       "name": "Certifications",
       "keywords": [
         "AWS Cloud Practitioner",
-	"Certified Kubernetes Application Developer (CKAD)"
+	      "Certified Kubernetes Application Developer (CKAD)"
       ]
     }
   ],
@@ -150,7 +154,7 @@
         "Javascript",
         "React.js",
         "Next.js",
-	"GraphQL"
+	      "GraphQL"
       ]
     },
     {
