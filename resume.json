@@ -20,40 +20,41 @@
   "work": [
     {
       "highlights": [
-        "Quickly onboarded to a large and developing full-stack application for creating regulatory reports using React and Java Spring Boot, contributing 33 merged prs in 10 weeks.",
-	      "Successfully deployed the first production release of our application, taking part in thorough end-to-end testing and deployment processes."
+        "Quickly onboarded onto a large-scale full-stack application for creating regulatory reports using React and Java Spring Boot, contributing 33 merged prs in 10 weeks.",
+	      "Successfully deployed the first production release of the new application by taking part in thorough end-to-end testing and deployment processes."
       ],
       "company": "JPMorgan Chase and Co.",
-      "position": "Software Engineering Intern (Summer)",
+      "position": "Software Engineering Intern",
       "location": "Columbus, OH",
       "startDate": "2024-06",
       "endDate": "2024-08"
     },
     {
       "highlights": [
-        "Contributed to the creation of a new AWS EKS microservice for the Chase Automobile Loan Originations team, isolating the lease eligibility decision process.",
-	      "Contributed to decision logic and system observability with Splunk and Datadog."
+        "Streamlined the manual process of determining a customers eligibility of lease to loan conversion with 1600 requests processed to date with 0 production defects.",
+	      "Accomplished this by developing a new AWS EKS microservice with Java Spring Boot and added system observability with Splunk and Datadog."
       ],
       "company": "JPMorgan Chase and Co.",
-      "position": "Software Engineering Intern (Academic)",
+      "position": "Software Engineering Intern (Part-time)",
       "location": "Columbus, OH",
       "startDate": "2023-09",
       "endDate": "2024-05"
     },
     {
       "highlights": [
-	      "Spearheaded the development of a serverless Python and React.js web app that uses a centralized DynamoDB database to reduce team communication time by about 3 hours per week.",
-	      "Conducted comprehensive user research, engaging in frequent meetings and presentations with stakeholders to ensure alignment with project goals."
+	      "Reduced time waiting for team communication by about 3 hours per week by creating a serverless Python and React.js web app on AWS Lambda with a centralized DynamoDB database to share a history of manual API tests and define API specifications as they change.",
+	      "Ensured the project's alignment with user needs through frequent meetings and presentations with users and other stakeholders."
       ],
       "company": "JPMorgan Chase and Co.",
-      "position": "Software Engineering Intern (Summer)",
+      "position": "Software Engineering Intern",
       "location": "Columbus, OH",
       "startDate": "2023-06",
       "endDate": "2023-08"
     },
     {
       "highlights": [
-        "Used Ruby on Rails to create a web-based dashboard for monitoring supercomputer resources and deliver assorted features and bug fixes for the OpenOndemand platform, empowering researchers to seamlessly interface with Linux supercomputers through a user-friendly web interface."
+        "Created a web-based dashboard for monitoring supercomputer resources using Ruby on Rails.",
+        "Delivered a multitude of assorted features and bug fixes for the OpenOndemand platform, empowering researchers to seamlessly interface with Linux supercomputers through a user-friendly web interface."
       ],
       "company": "Ohio Supercomputer Center",
       "position": "Student Software Engineer",
@@ -64,8 +65,8 @@
     {
       "website": "",
       "highlights": [
-        "Drove the creation of the MongoDB database, Express.js API, and connecting client code for monkeytype.com, enabling fast and efficient data storage for over 100k unique users every day.",
-        "Identified and corrected inefficient processes, immediately reducing costs by 70 percent and slowing the rate of increasing cloud service costs."
+        "Created a fast and efficient data storage system for over 100k unique users every day by architecting and implementing the MongoDB database, Express.js backend API, and connecting client code for monkeytype.com.",
+        "Reduced operating costs by 70 percent and slowed the rate of increasing cloud service costs by identifying and correcting inefficient system architecture and processes."
       ],
       "company": "Monkeytype",
       "position": "Full Stack Open Source Contributor",
@@ -179,8 +180,9 @@
     "endDate": "1111-11",
     "summary": "",
     "highlights": [
-      "Work with team to plan weekly meetings and events, creating educational content for club members.",
-      "Rank in the top 5 performers at OSU, placing 1st and 3rd in ICPC regional competitions for 2022 and 2023 respectively."
+      "Organized competitive programming competitions at OSU for over 500 participants across 4 events.",
+      "Work with team to create problems and educational content for weekly meetings.",
+      "Rank in the top 5 competitors at OSU, placing 1st and 3rd in ICPC regional competitions for 2022 and 2023 respectively."
     ]
   }],
   "certificates": [],
