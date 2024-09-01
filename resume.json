@@ -20,8 +20,9 @@
   "work": [
     {
       "highlights": [
-        "Quickly onboarded onto a large-scale full-stack application for creating regulatory reports using React and Java Spring Boot, contributing 33 merged prs in 10 weeks.",
-	      "Successfully deployed the first production release of the new application by taking part in thorough end-to-end testing and deployment processes."
+        "Developed core features for both the frontend and backend of a new regulatory reporting application using React and Java Spring Boot, expanding the app's functionality for a previously unserviced user group.",
+	      "Resolved critical defects that were causing application-wide failures, ensuring stability and smooth functionality for production environments.",
+        "Successfully deployed the first production release of the new application by taking part in thorough end-to-end testing and deployment processes."
       ],
       "company": "JPMorgan Chase and Co.",
       "position": "Software Engineering Intern",
