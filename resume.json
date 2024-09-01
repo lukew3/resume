@@ -20,9 +20,8 @@
   "work": [
     {
       "highlights": [
-        "Developed core features for both the frontend and backend of a new regulatory reporting application using React and Java Spring Boot, expanding the app's functionality for a previously unserviced user group.",
-	      "Resolved critical defects that were causing application-wide failures, ensuring stability and smooth functionality for production environments.",
-        "Successfully deployed the first production release of the new application by taking part in thorough end-to-end testing and deployment processes."
+        "Added a portfolio of features to a new regulatory reporting application using React and Java Spring Boot on top of an Oracle SQL database, expanding the app's functionality for a previously unserviced user group.",
+	      "Ensured stability and smooth functionality in production environments by resolving critical defects causing application-wide failures and taking part in thorough end-to-end testing."
       ],
       "company": "JPMorgan Chase and Co.",
       "position": "Software Engineering Intern",
