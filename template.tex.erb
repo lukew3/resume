@@ -40,6 +40,15 @@ end
 
 \def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
 
+% Add text watermark to the bottom right of each page
+\usepackage{eso-pic}
+\usepackage{xcolor}
+\AddToShipoutPictureBG{%
+  \AtTextLowerLeft{%
+    \raisebox{-1cm}{\makebox[\paperwidth][r]{\textsf{\small \textcolor[rgb]{0.8,0.8,0.8}{https://github.com/lukew3/resume v1.10.2}}\hspace{3cm}}}%
+  }%
+}
+
 % DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
 
 \newcommand{\lineunder} {
@@ -134,7 +143,7 @@ end
 <% projects.each do |project| %>
     {\textbf{<%= project['name'] %>}} {\sl <%= project['keywords'].map{ |e| "#{e}"}.join(', ') %>} \hfill <%= project['url'] %>\\
     <%= project['description'] %>\\
-    \vspace*{2mm}
+    \vspace*{1mm}
 <% end %>
 
 \end{document}
