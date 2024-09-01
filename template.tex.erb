@@ -27,6 +27,11 @@ end
     \usepackage[utf8]{inputenc}
     \usepackage[T1]{fontenc}
     \usepackage{enumitem}
+
+    % Packages used only for watermark
+    \usepackage{eso-pic}
+    \usepackage{xcolor}
+
     \setlist{leftmargin=6mm} % Set bullet point margin %
     \textheight=10in
     \pagestyle{empty}
@@ -39,6 +44,13 @@ end
 %\renewcommand{\rmdefault}{lgrcmr}
 
 \def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% Add text watermark to the bottom right of each page
+\AddToShipoutPictureBG{%
+  \AtTextLowerLeft{%
+    \raisebox{-1cm}{\makebox[\paperwidth][r]{\textsf{\small \textcolor[rgb]{0.8,0.8,0.8}{https://github.com/lukew3/resume v1.10.2}}\hspace{3cm}}}%
+  }%
+}
 
 % DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
 
