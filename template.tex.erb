@@ -100,10 +100,10 @@ end
 \vspace{1mm}
 
 <% work.each_with_index do |job, index| %>
-    <% if index == 0 or work[index-1]['location'] != work[index]['location'] %>
-    	\textbf{<%= job['company'] %>} \hfill <%= job['location'] %>\\
+    <% if index == 0 or work[index-1]['company'] != work[index]['company'] %>
+    	\textbf{<%= job['company'] %>}\\
     <% end %>
-    \textit{<%= job['position'] %>} \hfill <%= formatDate(job['startDate']) + ' - ' + formatDate(job['endDate']) %>\\
+    \textit{<%= job['position'] %>} \hfill \textsl{<%= formatDate(job['startDate']) + ' - ' + formatDate(job['endDate']) %>}\\
     \vspace{-7pt}
     \begin{itemize} \itemsep -1mm
         <% job['highlights'].each do |highlight| %>
@@ -127,7 +127,7 @@ end
 \vspace{1mm}
 
 <% volunteer.each do |job| %>
-    \textbf{<%= job['organization'] %>} \textit{/ <%= job['position'] %>} \hfill <%= formatDate(job['startDate']) + ' - ' + formatDate(job['endDate']) %>\\
+    \textbf{<%= job['organization'] %>} \textit{/ <%= job['position'] %>} \hfill \textsl{<%= formatDate(job['startDate']) + ' - ' + formatDate(job['endDate']) %>}\\
     %>\\
     \vspace{-2mm}
     \begin{itemize} \itemsep -1pt
