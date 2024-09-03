@@ -1,32 +1,32 @@
-
 \documentclass[letterpaper]{article}
-    \usepackage{fullpage}
-    \usepackage{mathptmx}
-    \usepackage{amsmath}
-    \usepackage{amssymb}
-    \usepackage{textcomp}
-    \usepackage[utf8]{inputenc}
-    \usepackage[T1]{fontenc}
-    \usepackage{enumitem}
-    \setlist{leftmargin=6mm} % Set bullet point margin %
-    \textheight=10in
-    \pagestyle{empty}
-    \raggedright
-    \usepackage[left=0.6in,right=0.6in,bottom=0.7in,top=0.7in]{geometry}
-    \input{glyphtounicode}
-    \pdfgentounicode=1
-
-    %\renewcommand{\encodingdefault}{cg}
-%\renewcommand{\rmdefault}{lgrcmr}
+\usepackage{
+    fullpage,
+    mathptmx,
+    amsmath,
+    amssymb,
+    textcomp,
+    enumitem,
+    eso-pic,
+    xcolor
+}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\setlist{leftmargin=6mm} % Set bullet point margin %
+\textheight=10in
+\pagestyle{empty}
+\raggedright
+\usepackage[left=0.6in,right=0.6in,bottom=0.7in,top=0.7in]{geometry}
+\input{glyphtounicode}
+\pdfgentounicode=1
 
 \def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
 
 % Add text watermark to the bottom right of each page
-\usepackage{eso-pic}
+\usepackage{}
 \usepackage{xcolor}
 \AddToShipoutPictureBG{%
   \AtTextLowerLeft{%
-    \raisebox{-1cm}{\makebox[\paperwidth][r]{\textsf{\small \textcolor[rgb]{0.8,0.8,0.8}{https://github.com/lukew3/resume v1.10.3}}\hspace{3cm}}}%
+    \raisebox{-1cm}{\makebox[\paperwidth][r]{\textsf{\small \textcolor[rgb]{0.8,0.8,0.8}{https://github.com/lukew3/resume v2.0.0}}\hspace{3cm}}}%
   }%
 }
 
@@ -44,10 +44,8 @@
 
 % END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
 
-    \begin{document}
+\begin{document}
 \vspace*{-40pt}
-
-    
 
 %==== Profile ====%
 \vspace*{-10pt}
@@ -86,8 +84,6 @@
 \header{Work Experience}
 \vspace{1mm}
 
-
-    
     \textbf{JPMorgan Chase and Co.}\\
     
     \textit{Software Engineering Intern} \hfill \textsl{June 2024 - August 2024}\\
@@ -95,20 +91,16 @@
     \begin{itemize} \itemsep -1mm
 
             \item Created new user interface and backend handling with Java and Oracle SQL for the policy reviewer user type to a new regulatory reporting application.
-            % \item Added a portfolio of features to a new regulatory reporting application using React and Java Spring Boot on top of an Oracle SQL database, expanding the app's functionality for a previously unserviced user group.
-        
+
             \item Ensured stability and smooth functionality in production environments by resolving critical defects and taking part in thorough end-to-end testing prior to and through the first production release.
         
     \end{itemize}
     \vspace{-2mm}
 
-    
     \textit{Software Engineering Intern (Part-time)} \hfill \textsl{September 2023 - May 2024}\\
     \vspace{-7pt}
     \begin{itemize} \itemsep -1mm
-        
-            % \item Streamlined the manual process of determining a customers eligibility of lease to loan conversion with 1600 requests processed to date with 0 production defects.
-
+    
             \item Developed a new AWS EKS microservice to streamline the manual process of determining a customers eligibility of lease to loan conversion with 1600 user requests processed to date with 0 production defects.
 
             \item Added complete application observability and alert triggering to the new application with Splunk and Datadog.
@@ -118,7 +110,6 @@
     \end{itemize}
     \vspace{-2mm}
 
-    
     \textit{Software Engineering Intern} \hfill \textsl{June 2023 - August 2023}\\
     \vspace{-7pt}
     \begin{itemize} \itemsep -1mm
@@ -130,7 +121,6 @@
     \end{itemize}
     \vspace{-2mm}
 
-    
     \textbf{Ohio Supercomputer Center}\\
     
     \textit{Student Software Engineer} \hfill \textsl{February 2022 - May 2023}\\
@@ -141,16 +131,9 @@
 
             \item Wrote a new optimized and functionally complete filesystem interface for researchers to manage files on supercomputer clusters
 
-            % \item Reformed issue management 
-
-            % \item Reduced application tech-debt through refactoring
-        
-            % \item Delivered a multitude of assorted features and bug fixes for the OpenOndemand platform, empowering researchers to seamlessly interface with Linux supercomputers through a user-friendly web interface.
-        
     \end{itemize}
     \vspace{-2mm}
 
-    
     	\textbf{Monkeytype.com}\\
     
     \textit{Full Stack Open Source Contributor} \hfill \textsl{April 2021 - August 2021}\\
@@ -159,25 +142,15 @@
             \item Reduced operating costs by 70 percent by architecting and implementing a new MongoDB database and Express.js backend API, now serving over 100k daily users, to replace the previous Google Firebase solution.
 
             \item Enabled watching replays of typing tests by adding keystroke tracking and animated visualization.
-    
-            % \item Created a fast and efficient data storage system for over 100k unique users every day by architecting and implementing the MongoDB database, Express.js backend API, and connecting client code for monkeytype.com.
-        
-            % \item Reduced operating costs by 70 percent and slowed the rate of increasing cloud service costs by identifying and correcting inefficient system architecture and processes.
-        
+
     \end{itemize}
     \vspace{-2mm}
-
-
-%==== Certificates ====%
-
 
 %==== Leadership ====%
 \header{Leadership}
 \vspace{1mm}
 
-
     \textbf{Competitive Programming Club at Ohio State} \textit{/ Officer} \hfill \textsl{April 2022 - Present}\\
-    %>\\
     \vspace{-2mm}
     \begin{itemize} \itemsep -1pt
     
@@ -188,7 +161,6 @@
     \end{itemize}
     \vspace{-1mm}
 
-
 %==== Projects ====%
 \header{Projects}
 
@@ -198,11 +170,10 @@
     
         \item Created and maintain an open-source Python package with over 300 downloads per month that enables generating a wide variety of math exercises.
 
-        \item Reviewed over 200 pull requests from 80+ global programmers, made possible through my modular repository design.
+        \item Reviewed over 250 pull requests from 80+ global programmers, made possible through my modular repository design.
 
         \item Created CI pipelines using Github Actions to ensure stability through automated code testing and linting
-            % Created and maintain an open-source Python package that enables generating a wide variety of math exercises. Featured on YC Hacker News, reaching rank 3 on the front page. Has over 300 downloads per month and over 500 stars on Github.\\
-    
+
     \end{itemize}
     \vspace*{-2mm}
 
