@@ -11,18 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Validate JSON Resume
-        uses: lukew3/validate-json-resume-action@main
-        with:
-          resume_path: resume.json
-      
-      - name: Json to tex
-        uses: lukew3/json-fill-erb-action@main
-        with:
-          json_path: resume.json
-          erb_path: template.tex.erb
-          out_path: resume.tex
-
       - name: tex to pdf
         uses: xu-cheng/latex-action@v2
         with:
@@ -43,15 +31,3 @@ jobs:
           asset_path: resume.pdf
           asset_name: ${{ github.actor }}_resume.pdf
           asset_content_type: application/pdf
-
-      - name: Upload resume.tex
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.get_release.outputs.upload_url }}
-          asset_path: resume.tex
-          asset_name: ${{ github.actor }}_resume.tex
-          asset_content_type: application/x-tex
-          
-
