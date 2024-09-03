@@ -1,13 +1,4 @@
-build.rb
-
-# build.rb output
-resume.tex
-
 # pdflatex output
 resume.aux
 resume.log
 resume.pdf
-
-# ruby
-vendor/
-
